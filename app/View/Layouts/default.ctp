@@ -25,7 +25,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	<div id="container">
 		<div id="header" class="row">
 			<div class="large-4 columns">
-				<img src="img/logo.gif">
+				<img src="img/logo.png">
 			</div>
 			<div class="large-8 columns">
 				<ul class="inline-list">

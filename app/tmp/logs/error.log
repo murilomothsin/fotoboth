@@ -1,0 +1,126 @@
+2013-07-01 22:33:24 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:04 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:05 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:05 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:05 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:05 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:05 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:06 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:06 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:06 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:13 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:13 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:13 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-01 22:34:13 Error: [MissingControllerException] Controller class Logo.gifController could not be found.
+Exception Attributes: array (
+  'class' => 'Logo.gifController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/logo.gif
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

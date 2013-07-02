@@ -1,0 +1,9 @@
+Albuns
+->Fotos
+->Lugar
+->Fotografo
+->data
+->Titulo
+->Descrição
+->Quem foi fotografado
+->Categoria

@@ -124,3 +124,1329 @@ Request URL: /fotoboth/logo.gif
 Stack Trace:
 #0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-07-02 23:37:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Categoria.grupo' in 'order clause'
+Request URL: /fotoboth/Usuarios/
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Usuario...', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Usuario), Array)
+#5 /var/www/fotoboth/app/Controller/UsuariosController.php(10): Model->find('all')
+#6 [internal function]: UsuariosController->index()
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-02 23:37:06 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:37:56 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:38:42 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:38:42 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:38:42 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:09 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:10 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:11 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:11 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:11 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:11 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:48 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:49 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:49 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:49 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:49 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:49 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:44:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:44:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:44:50 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:47:07 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:06 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:06 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:06 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:06 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:15 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:16 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:16 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:16 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:17 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:17 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:53 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:54 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:54 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:55 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:55 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:55 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:48:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:48:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:48:55 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:49:20 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:50:03 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/UsuariosController.php, line 25]
+2013-07-02 23:50:03 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/Usuarios/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-02 23:50:03 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:50:14 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:50:23 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:50:44 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:52:59 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:53:09 Error: [MissingActionException] Action UsuariosController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'editar',
+)
+Request URL: /fotoboth/Usuarios/editar/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:53:09 Error: [MissingActionException] Action UsuariosController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'editar',
+)
+Request URL: /fotoboth/Usuarios/editar/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-02 23:59:46 Error: [MissingActionException] Action UsuariosController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsuariosController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Usuarios/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:14:42 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:45 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:45 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:46 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:46 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:46 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:47 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:47 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:47 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:48 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:48 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:48 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:49 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:49 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:49 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:49 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:50 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:50 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:15:50 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:16:36 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:16:36 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:16:37 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:16:37 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:16:37 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:17:02 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:17:02 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:17:03 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:17:03 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:17:03 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/Usuarios
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:17:28 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/User
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-03 00:17:43 Error: [MissingActionException] Action UsersController::adicionar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'adicionar',
+)
+Request URL: /fotoboth/Users/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:17:43 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:19:24 Error: [MissingActionException] Action UsersController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'editar',
+)
+Request URL: /fotoboth/Users/editar/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:19:24 Error: [MissingActionException] Action UsersController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'editar',
+)
+Request URL: /fotoboth/Users/editar/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:19:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Group.gropu' in 'field list'
+Request URL: /fotoboth/Users/edit/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Group`....', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Group`....', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Group`....', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Group), Array)
+#5 /var/www/fotoboth/app/Controller/UsersController.php(34): Model->find('list')
+#6 [internal function]: UsersController->edit('1')
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-03 00:19:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Group.gropu' in 'field list'
+Request URL: /fotoboth/Users/edit/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Group`....', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Group`....', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Group`....', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Group), Array)
+#5 /var/www/fotoboth/app/Controller/UsersController.php(34): Model->find('list')
+#6 [internal function]: UsersController->edit('img', 'logo.png')
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-03 00:20:15 Error: [MissingActionException] Action UsersController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'editar',
+)
+Request URL: /fotoboth/Users/editar/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:20:15 Error: [MissingActionException] Action UsersController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'editar',
+)
+Request URL: /fotoboth/Users/editar/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:20:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Group.gropu' in 'field list'
+Request URL: /fotoboth/Users/edit/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Group`....', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Group`....', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Group`....', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Group), Array)
+#5 /var/www/fotoboth/app/Controller/UsersController.php(34): Model->find('list')
+#6 [internal function]: UsersController->edit('1')
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-03 00:20:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Group.gropu' in 'field list'
+Request URL: /fotoboth/Users/edit/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Group`....', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Group`....', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Group`....', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Group), Array)
+#5 /var/www/fotoboth/app/Controller/UsersController.php(34): Model->find('list')
+#6 [internal function]: UsersController->edit('img', 'logo.png')
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-03 00:21:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Group.gropu' in 'field list'
+Request URL: /fotoboth/Users/edit/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Group`....', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Group`....', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Group`....', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Group), Array)
+#5 /var/www/fotoboth/app/Controller/UsersController.php(34): Model->find('list')
+#6 [internal function]: UsersController->edit('1')
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-03 00:21:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Group.gropu' in 'field list'
+Request URL: /fotoboth/Users/edit/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Group`....', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Group`....', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Group`....', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Group), Array)
+#5 /var/www/fotoboth/app/Controller/UsersController.php(34): Model->find('list')
+#6 [internal function]: UsersController->edit('img', 'logo.png')
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-03 00:23:32 Error: [MissingActionException] Action UsersController::adicionar() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'adicionar',
+)
+Request URL: /fotoboth/users/adicionar
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:23:32 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:24:47 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:26:28 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:36:39 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:37:34 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:37:43 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:38:44 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:39:00 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:39:15 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:39:33 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-03 00:40:02 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

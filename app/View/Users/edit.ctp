@@ -7,7 +7,9 @@
          echo $this->Form->input('username');
          echo $this->Form->input('password');
          echo $this->Form->input('email');
-         echo $this->Form->input('group_id');
+         echo $this->Form->input('role', array(
+            'options' => array('admin' => 'Admin', 'author' => 'Author')
+        ));
          echo $this->Form->input('id', array('type' => 'hidden'));
       ?>
    </fieldset>

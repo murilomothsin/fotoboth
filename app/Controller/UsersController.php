@@ -19,8 +19,6 @@
                $this->Session->setFlash('Falha na inserção do usuário, tente outra vez.');
             }
          }
-         $groups = $this->User->Group->find('list');
-         $this->set(compact('groups'));
       }
 
       public function edit($id = null){
@@ -28,13 +26,11 @@
          if ($this->request->is('get')) {
             $this->request->data = $this->User->read();
          } else {
-         if ($this->User->save($this->request->data)) {
-            $this->Session->setFlash('Usuário foi editado com sucesso.');
-            $this->redirect(array('action' => 'index'));
+            if ($this->User->save($this->request->data)) {
+               $this->Session->setFlash('Usuário foi editado com sucesso.');
+               $this->redirect(array('action' => 'index'));
+            }
          }
-         }
-         $groups = $this->User->Group->find('list');
-         $this->set(compact('groups'));
       }
 
    }

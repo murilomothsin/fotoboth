@@ -6,35 +6,23 @@
 
 		//public $belongsTo = 'Categoria';
 
-		public $belongsTo = array(
-			'Group' => array(
-				'className' => 'Group',
-				'foreignKey' => 'group_id',
-				'conditions' => array(),
-				'fields' => array('Group.id', 'Group.group'),
-				'counterCache' => 'true',
-				'counterScope' => array(),
-				'order' => array('Group.group' => 'ASC')
-			)
-		);
-
 		public $validate = array(
 		  'username' => array(
 				'required' => array(
 					 'rule' => array('notEmpty'),
-					 'message' => 'A username is required'
+					 'message' => 'Digite um usuário!'
 				)
 		  ),
 		  'password' => array(
 				'required' => array(
 					 'rule' => array('notEmpty'),
-					 'message' => 'A password is required'
+					 'message' => 'Digite uma senha!'
 				)
 		  ),
 		  'role' => array(
 				'valid' => array(
 					 'rule' => array('inList', array('admin', 'author')),
-					 'message' => 'Please enter a valid role',
+					 'message' => 'Selecione um direito!',
 					 'allowEmpty' => false
 				)
 		  )

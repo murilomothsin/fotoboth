@@ -22,7 +22,7 @@ class UploadComponent extends Component{
 
 	var $logErro = ""; //Log de erro
 
-	function startup(&$controller){
+	function startup(Controller $controller){
 		$this->path    = APP . WEBROOT_DIR . DS;
 		$this->maxSize = 2*1024*1024; // 2MB
 	}

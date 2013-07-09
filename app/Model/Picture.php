@@ -6,7 +6,7 @@
 
 		public $name = 'Picture';
 
-		//public $belongsTo = 'Categoria';
+		public $belongsTo = 'Album';
 
 	}
 

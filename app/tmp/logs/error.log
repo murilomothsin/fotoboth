@@ -2924,3 +2924,481 @@ Stack Trace:
 #1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
 #2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-07-09 23:00:48 Error: [MissingActionException] Action AlbumsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'edit',
+)
+Request URL: /fotoboth/albums/edit/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:00:48 Error: [MissingActionException] Action AlbumsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'edit',
+)
+Request URL: /fotoboth/albums/edit/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:00:52 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:24:57 Error: [MissingViewException] View file "/var/www/fotoboth/app/View/Categories/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/fotoboth/app/View/Categories/index.ctp',
+)
+Request URL: /fotoboth/categories
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/fotoboth/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-09 23:25:24 Error: [MissingActionException] Action CategoriesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/categories/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:26:01 Error: [MissingViewException] View file "/var/www/fotoboth/app/View/Categories/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/fotoboth/app/View/Categories/index.ctp',
+)
+Request URL: /fotoboth/categories
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/fotoboth/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-09 23:38:34 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:39:18 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:39:23 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:46:11 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:48:05 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:48:05 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:49:23 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:49:24 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:49:24 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:49:31 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:49:31 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:49:32 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:49:32 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:50:20 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:53:15 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:54:19 Error: Fatal Error (4): syntax error, unexpected 'var' (T_VAR), expecting variable (T_VARIABLE) in [/var/www/fotoboth/app/Model/Album.php, line 9]
+2013-07-09 23:54:19 Error: [FatalErrorException] syntax error, unexpected 'var' (T_VAR), expecting variable (T_VARIABLE)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 9, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 9, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-09 23:54:19 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:54:36 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:55:00 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-09 23:55:04 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:06:08 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:06:32 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:06:32 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:06:32 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:06:45 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:06:56 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:07:08 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:07:43 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:13:04 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:08 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:09 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:09 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:21 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:21 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:21 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:21 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 00:14:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Categoria.category' in 'field list'
+Request URL: /fotoboth/albums
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Album`....', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Album`....', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Album`....', false)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(2697): DboSource->read(Object(Album), Array)
+#5 /var/www/fotoboth/app/Controller/AlbumsController.php(9): Model->find('all')
+#6 [internal function]: AlbumsController->index()
+#7 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

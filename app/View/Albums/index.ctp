@@ -40,7 +40,7 @@
 		  <td><?php echo $album['Album']['photographer']; ?></td>
 		  <td><?php echo $album['Album']['model']; ?></td>
 		  <td><?php echo $album['Album']['when']; ?></td>
-		  <td><?php echo $album['Album']['category_id']; ?></td>
+		  <td><?php echo $album['Category']['category']; ?></td>
 		  <td class='actions'>
 		  <?php
 		  echo $this->Html->link('Editar', array('action' => 'edit', $album['Album']['id']));

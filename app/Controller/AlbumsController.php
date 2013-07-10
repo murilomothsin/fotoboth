@@ -10,6 +10,10 @@ class AlbumsController extends AppController {
 	}
 
 	public function add(){
+		
+		$categories = $this->Album->Category->find('list');
+		$this->set(compact('categories'));
+
 		if($this->request->is('post')){
 			if($this->Album->save($this->request->data)){
 				$this->Session->setFlash("Album foi adicionado com sucesso!");
@@ -17,6 +21,7 @@ class AlbumsController extends AppController {
 			} else {
 				$this->Session->setFlash('Falha na inserção do album, tente outra vez.');
 			}
+			
 		}
 	}
 }

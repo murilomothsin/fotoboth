@@ -6,7 +6,21 @@
 
 		public $name = 'Album';
 
-		//public $belongsTo = 'Categoria';
+		public $hasMany = 'Picture';
+
+		//public $belongsTo = 'Category';
+		public $belongsTo = array(
+				'Category' => array(
+				'className' => 'Category',
+				'foreignKey' => 'category_id',
+				'conditions' => array(),
+				'fields' => array('Category.id', 'Category.category'),
+				'counterCache' => 'true',
+				'counterScope' => array(),
+				'order' => array('Category.category' => 'ASC')
+			)
+		);
+
 
 		public $validate = array(
 		  'title' => array(

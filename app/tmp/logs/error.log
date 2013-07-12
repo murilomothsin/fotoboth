@@ -3402,3 +3402,491 @@ Stack Trace:
 #9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
 #10 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
+2013-07-10 19:22:14 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/users/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 19:24:32 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 19:43:25 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-10 19:45:54 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 00:00:50 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 00:06:02 Error: [MissingActionException] Action PicturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'PicturesController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Pictures/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PicturesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 00:08:23 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 00:08:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'uploadImg' at line 1
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('uploadImg', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('uploadImg', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('uploadImg', Array, Array)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(800): DboSource->query('uploadImg', Array, Object(Picture))
+#5 /var/www/fotoboth/app/Controller/AlbumsController.php(19): Model->__call('uploadImg', Array)
+#6 /var/www/fotoboth/app/Controller/AlbumsController.php(19): Picture->uploadImg()
+#7 [internal function]: AlbumsController->add()
+#8 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-07-11 00:08:44 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 00:15:52 Error: [MissingControllerException] Controller class PictureController could not be found.
+Exception Attributes: array (
+  'class' => 'PictureController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Core/Object.php(104): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#1 /var/www/fotoboth/app/Controller/AlbumsController.php(19): Object->requestAction(Array)
+#2 [internal function]: AlbumsController->add()
+#3 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#4 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-07-11 00:41:56 Error: [MissingActionException] Action PicturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'PicturesController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Pictures/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PicturesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 00:54:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 20]
+2013-07-11 00:54:30 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 20, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 20, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:54:30 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 20]
+2013-07-11 00:54:30 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 20, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 20, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:55:02 Error: Fatal Error (4): syntax error, unexpected '{', expecting ')' in [/var/www/fotoboth/app/Controller/PicturesController.php, line 27]
+2013-07-11 00:55:02 Error: [FatalErrorException] syntax error, unexpected '{', expecting ')'
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 27, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 27, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:04 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:04 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:04 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:04 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:34 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:34 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:34 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:34 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:44 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:44 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:45 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:45 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:55 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:55 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 00:58:55 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 00:58:55 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:00:32 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 01:00:32 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:00:32 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 01:00:32 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:01:31 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 01:01:31 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:01:31 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 01:01:31 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:01:46 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 01:01:46 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:01:46 Error: Fatal Error (4): syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 7]
+2013-07-11 01:01:46 Error: [FatalErrorException] syntax error, unexpected '$Pictures' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:03:27 Error: Fatal Error (1): Call to a member function uploadImg() on a non-object in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 24]
+2013-07-11 01:03:27 Error: [FatalErrorException] Call to a member function uploadImg() on a non-object
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 24, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 24, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:03:27 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 01:03:59 Error: Fatal Error (1): Class 'Pictures' not found in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 24]
+2013-07-11 01:03:59 Error: [FatalErrorException] Class 'Pictures' not found
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'Pictures...', '/var/www/fotobo...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Pictures...', '/var/www/fotobo...', 24, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'Pictures...', '/var/www/fotobo...', 24, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:03:59 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 01:04:08 Error: Fatal Error (1): Call to a member function setPath() on a non-object in [/var/www/fotoboth/app/Controller/PicturesController.php, line 35]
+2013-07-11 01:04:08 Error: [FatalErrorException] Call to a member function setPath() on a non-object
+Request URL: /fotoboth/albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 35, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 35, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 01:04:08 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 22:35:52 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 22:36:34 Error: Fatal Error (1): Call to a member function setPath() on a non-object in [/var/www/fotoboth/app/Controller/PicturesController.php, line 35]
+2013-07-11 22:36:34 Error: [FatalErrorException] Call to a member function setPath() on a non-object
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 35, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 35, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 22:36:34 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 22:39:25 Error: Fatal Error (4): syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 8]
+2013-07-11 22:39:25 Error: [FatalErrorException] syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION)
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 8, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 8, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 22:39:25 Error: Fatal Error (4): syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 8]
+2013-07-11 22:39:25 Error: [FatalErrorException] syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION)
+Request URL: /fotoboth/Albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 8, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 8, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 22:54:43 Error: Fatal Error (1): Call to a member function uploadImg() on a non-object in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 24]
+2013-07-11 22:54:43 Error: [FatalErrorException] Call to a member function uploadImg() on a non-object
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 24, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 24, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 22:54:43 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-11 22:55:21 Error: Fatal Error (1): Call to a member function setPath() on a non-object in [/var/www/fotoboth/app/Model/Picture.php, line 22]
+2013-07-11 22:55:21 Error: [FatalErrorException] Call to a member function setPath() on a non-object
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 22, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 22, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-11 22:55:21 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-12 00:18:22 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/fotoboth/app/Model/Picture.php, line 18]
+2013-07-12 00:18:22 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 18, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 18, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-12 00:19:40 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/fotoboth/app/Model/Picture.php, line 20]
+2013-07-12 00:19:40 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 20, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 20, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-12 00:19:40 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

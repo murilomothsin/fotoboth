@@ -8,10 +8,15 @@
 			echo $this->Form->input('place');
 			echo $this->Form->input('photographer');
 			echo $this->Form->input('model');
-			echo $this->Form->input('when');
+			echo $this->Form->input('when', array( 'class' => 'InputDate', 
+													'error' => array(
+													'wrap' => 'div', 
+													'class' => 'formerror'
+													)
+									            ));
 			echo $this->Form->input('category_id');
-			echo $this->Form->input('Picture.title');
-			echo $this->Form->input('Picture.Img', array('type'=>'file'));
+			echo $this->Form->input('Picture.0.title');
+			echo $this->Form->input('Picture.0.Img', array('type'=>'file'));
 			
 		?>
 	</fieldset>

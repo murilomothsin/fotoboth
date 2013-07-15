@@ -158,6 +158,35 @@ class UploadComponent extends Component{
 		}while(file_exists($this->path.$file_tmp.".".$ext));
 		return $file_tmp.".".$ext;
 	}
+
+	function uploadImg($PostPicture, $arrayKey = null) {
+		if($arrayKey != null) {
+			if(empty($PostPicture[$arrayKey]['Img'])) {
+				//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
+				return false;
+			}
+		} else {
+			if(empty($PostPicture['Img'])) {
+				//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
+				return false;
+			}
+		}
+		$path = "img/pictures";
+		$this->setPath($path);
+		$this->addAllowedExt($PostPicture['Img']['type']);
+		$novo_picture = $this->copyUploadedFile($PostPicture['Img'], '');
+		//grava dados do arquivo no banco de dados
+		if($arrayKey != null) {
+			$PostPicture[$arrayKey]['dir'] = 'files';
+			$PostPicture[$arrayKey]['picture_path'] = $novo_picture;
+			$PostPicture[$arrayKey]['file_size'] = number_format($PostPicture['Img']['size']/1024, 2) . " KB";
+		} else {
+			$PostPicture['dir'] = 'files';
+			$PostPicture['picture_path'] = $novo_picture;
+			$PostPicture['file_size'] = number_format($PostPicture['Img']['size']/1024, 2) . " KB";
+		}
+		return $PostPicture;
+	}
 }
 
 ?>

@@ -8,47 +8,42 @@
 	</ul>
 </div>
 <div class="large-12 columns">
-	<table cellpadding="0" cellspacing="0">
-	   <tr>
-		  <th>Id</th>
-		  <th>Titulo</th>
-		  <th>Descrição</th>
-		  <th>Local</th>
-		  <th>Fotografo</th>
-		  <th>modelo</th>
-		  <th>Quando</th>
-		  <th>Categoria</th>
-		  <th>Ações</th>
-	   </tr>
-	<?php
-
-	$i = 0;
-	foreach ($albums as $album)
-	{
-	   $class = null;
-	   if($i++ % 2 == 0)
-	   {
-		  $class = '';
-	   }
-
-	?>
-	   <tr <?php echo $class; ?>>
-		  <td><?php echo $album['Album']['id']; ?></td>
-		  <td><?php echo $album['Album']['title']; ?></td>
-		  <td><?php echo $album['Album']['description']; ?></td>
-		  <td><?php echo $album['Album']['place']; ?></td>
-		  <td><?php echo $album['Album']['photographer']; ?></td>
-		  <td><?php echo $album['Album']['model']; ?></td>
-		  <td><?php echo $album['Album']['when']; ?></td>
-		  <td><?php echo $album['Category']['category']; ?></td>
-		  <td class='actions'>
-		  <?php
-		  echo $this->Html->link('Editar', array('action' => 'edit', $album['Album']['id']));
-		  echo $this->Form->postLink('Deletar', array('action' => 'delete', $album['Album']['id']), array('confirm' => 'Você tem certeza que quer excluir este album?'));
-		  ?>
-		  </td>
-	   </tr>
-	<?php } ?>
+	<table cellpadding="0" cellspacing="0" class="table table-hover">
+		<thead>
+		   <tr>
+			  <th>Id</th>
+			  <th>Titulo</th>
+			  <th>Descrição</th>
+			  <th>Local</th>
+			  <th>Fotografo</th>
+			  <th>modelo</th>
+			  <th>Quando</th>
+			  <th>Categoria</th>
+			  <th>Ações</th>
+		   </tr>
+	   </thead>
+	   <tbody>
+		<?php
+		foreach ($albums as $album) {
+		?>
+		   <tr>
+			  <td><?php echo $album['Album']['id']; ?></td>
+			  <td><?php echo $album['Album']['title']; ?></td>
+			  <td><?php echo $album['Album']['description']; ?></td>
+			  <td><?php echo $album['Album']['place']; ?></td>
+			  <td><?php echo $album['Album']['photographer']; ?></td>
+			  <td><?php echo $album['Album']['model']; ?></td>
+			  <td><?php echo $album['Album']['when']; ?></td>
+			  <td><?php echo $album['Category']['category']; ?></td>
+			  <td>
+			  <?php
+			  echo $this->Html->link('Editar', array('action' => 'edit', $album['Album']['id']));
+			  echo $this->Form->postLink('Deletar', array('action' => 'delete', $album['Album']['id']), array('confirm' => 'Você tem certeza que quer excluir este album?'));
+			  ?>
+			  </td>
+		   </tr>
+		<?php } ?>
+	</tbody>
 	</table>
 </div>
 </div>

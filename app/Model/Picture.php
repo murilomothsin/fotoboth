@@ -8,8 +8,9 @@
 
 		public $belongsTo = 'Album';
 
-		function beforeSave() {
-			App::import('Component','Upload');
+		/*
+		function beforeSave($options = array()) {
+			App::uses('Component','Upload');
 			App::import('Component','Session');
 			$upload = new UploadComponent();
 			$Session = new SessionComponent();
@@ -17,7 +18,7 @@
 			//return true;
 
 			if(empty($this->request->data['Picture']['Img'])) {
-				$this->Session->setFlash(__('É preciso enviar uma imagem',true));
+				//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
 				return false;
 			}
 			$path = "img/pictures";
@@ -33,7 +34,7 @@
 
 			return true;
 		}
-		/*
+		
 		function uploadImg($PostPicture) {
 			echo 'oioioi';
 			var_dump($PostPicture);

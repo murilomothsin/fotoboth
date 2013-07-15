@@ -13,7 +13,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('foundation');
+		echo $this->Html->css('bootstrap');
 		echo $this->Html->css('geral');
 
 		echo $this->fetch('meta');
@@ -24,11 +24,11 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 <body>
 	<div id="container">
 		<div id="header" class="row">
-			<div class="large-4 columns">
+			<div class="span4">
 				<img src="img/logo.png">
 			</div>
-			<div class="large-8 columns">
-				<ul class="inline-list">
+			<div class="span8">
+				<ul class="inline">
 					<li>
 						<a href="#">Home</a>
 					</li>
@@ -53,16 +53,14 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 				</ul>
 			</div>
 		</div>
-		<div id="content" class="row">
-			<div class="large-12 columns">
+		<div id="content" >
 				<?php echo $this->Session->flash(); ?>
 
 				<?php echo $this->fetch('content'); ?>
-			</div>
 		</div>
 		<div id="footer" class="row">
-			<div class="large-12 columns">
-				<div class="small-6 small-centered columns"><?php echo $Description ?></div>
+			<div class="span12">
+				<div class="offset-3 span6"><?php echo $Description ?></div>
 			</div>
 		</div>
 	</div>

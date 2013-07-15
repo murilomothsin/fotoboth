@@ -3,7 +3,10 @@
 class PicturesController extends AppController {
 
 	var $name = 'Pictures';
+
 	var $helpers = array('Html', 'Form');
+
+	var $components = array('Upload');
 	
 
 	public function index() {
@@ -13,8 +16,7 @@ class PicturesController extends AppController {
 
 	function add() {
 		if (!empty($this->request->data)) {
-			//$this->request->data['Picture'] = $this->Picture->uploadImg($this->request->data['Picture']);
-			//$this->data['Picture']['type'] = $this->data['Picture']['Picture']['type'];
+			$this->request->data['Picture'] = $this->Upload->uploadImg($this->request->data['Picture']);
 			if ($this->Picture->save($this->request->data)) { //salva o trabalho
 				$this->Session->setFlash(__('Arquivo enviado com sucesso.', true));
 				$this->redirect(array('action'=>'index'));

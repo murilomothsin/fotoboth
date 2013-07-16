@@ -4655,3 +4655,55 @@ Stack Trace:
 #1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
 #2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-07-15 22:43:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/jquery.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-15 23:01:51 Error: [MissingActionException] Action AlbumsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'edit',
+)
+Request URL: /fotoboth/Albums/edit/1
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-15 23:01:51 Error: [MissingActionException] Action AlbumsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'edit',
+)
+Request URL: /fotoboth/Albums/edit/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-15 23:17:21 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Albums/img/logo.png
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-15 23:51:05 Error: Fatal Error (4): syntax error, unexpected ''error'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/fotoboth/app/View/Albums/add.ctp, line 8]
+2013-07-15 23:51:05 Error: [FatalErrorException] syntax error, unexpected ''error'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 8, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 8, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

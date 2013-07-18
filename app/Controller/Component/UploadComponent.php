@@ -29,7 +29,7 @@ class UploadComponent extends Component{
 
 	function setPath($p){
 		if ($p!=NULL){
-			$this->path = $this->path . $p . DS;
+			$this->path = $p . DS;
 			$this->path = eregi_replace("/", DS, $this->path);
 			$this->path = eregi_replace("\\\\", DS, $this->path);
 			return true;
@@ -159,32 +159,24 @@ class UploadComponent extends Component{
 		return $file_tmp.".".$ext;
 	}
 
-	function uploadImg($PostPicture, $arrayKey = null) {
-		if($arrayKey != null) {
-			if(empty($PostPicture[$arrayKey]['Img'])) {
-				//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
-				return false;
-			}
-		} else {
-			if(empty($PostPicture['Img'])) {
-				//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
-				return false;
-			}
+	function uploadImg($PostPicture) {
+		pr($arrayKey);
+		pr($PostPicture);
+		if(empty($PostPicture['Img'])) {
+			pr('erro 1');
+			//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
+			return false;
 		}
 		$path = "img/pictures";
 		$this->setPath($path);
 		$this->addAllowedExt($PostPicture['Img']['type']);
 		$novo_picture = $this->copyUploadedFile($PostPicture['Img'], '');
+		pr($novo_picture);
 		//grava dados do arquivo no banco de dados
-		if($arrayKey != null) {
-			$PostPicture[$arrayKey]['dir'] = 'files';
-			$PostPicture[$arrayKey]['picture_path'] = $novo_picture;
-			$PostPicture[$arrayKey]['file_size'] = number_format($PostPicture['Img']['size']/1024, 2) . " KB";
-		} else {
-			$PostPicture['dir'] = 'files';
-			$PostPicture['picture_path'] = $novo_picture;
-			$PostPicture['file_size'] = number_format($PostPicture['Img']['size']/1024, 2) . " KB";
-		}
+		$PostPicture['dir'] = 'files';
+		$PostPicture['picture_path'] = $novo_picture;
+		$PostPicture['file_size'] = number_format($PostPicture['Img']['size']/1024, 2) . " KB";
+		pr($PostPicture);
 		return $PostPicture;
 	}
 }

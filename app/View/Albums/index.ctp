@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="large-12 columns">
+	<div class="span12">
 		<h3>Albuns</h3>
 	</div>
 <div>
@@ -7,7 +7,7 @@
 		<li><?php echo $this->Html->link('Adicionar', array('action' => 'add')); ?></li>
 	</ul>
 </div>
-<div class="large-12 columns">
+<div class="span12">
 	<table cellpadding="0" cellspacing="0" class="table table-hover">
 		<thead>
 		   <tr>

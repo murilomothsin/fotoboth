@@ -19,7 +19,9 @@ class AlbumsController extends AppController {
 
 		if($this->request->is('post')){
 			$this->Album->create();
-			$this->request->data['Picture'][0] = $this->Upload->uploadImg($this->request->data['Picture'][0], 0);
+			foreach ($this->request->data['Picture'] as $key => $value) {
+				$this->request->data['Picture'][$key] = $this->Upload->uploadImg($this->request->data['Picture'][$key], $key);
+			}
 			if($this->Album->saveAll($this->request->data)){
 				$this->Session->setFlash("Album foi adicionado com sucesso!");
 				$this->redirect(array('action' => 'index'));

@@ -12,6 +12,12 @@
 	vertical-align: middle;
 }
 
+.PreviewImg {
+	float: right;
+	width: 150px;
+	border: 1px solid #CCC;
+}
+
 .InputDate select {
 	width: 30%;
 	float: left;

@@ -4726,3 +4726,436 @@ Stack Trace:
 #3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-07-18 22:16:36 Error: Fatal Error (1): Call to a member function codeBlock() on a non-object in [/var/www/fotoboth/app/View/Albums/add.ctp, line 5]
+2013-07-18 22:16:36 Error: [FatalErrorException] Call to a member function codeBlock() on a non-object
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 5, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 5, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-18 23:31:34 Error: Fatal Error (4): syntax error, unexpected ''dateFormat'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/fotoboth/app/View/Albums/add.ctp, line 60]
+2013-07-18 23:31:34 Error: [FatalErrorException] syntax error, unexpected ''dateFormat'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 60, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 60, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-18 23:32:46 Error: Fatal Error (4): syntax error, unexpected ''alt'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/fotoboth/app/View/Albums/add.ctp, line 57]
+2013-07-18 23:32:46 Error: [FatalErrorException] syntax error, unexpected ''alt'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 57, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 57, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-18 23:32:59 Error: Fatal Error (4): syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/fotoboth/app/View/Albums/add.ctp, line 57]
+2013-07-18 23:32:59 Error: [FatalErrorException] syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fotoboth/Albums/add
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 57, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 57, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-19 12:19:55 Error: [MissingActionException] Action AlbumsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'img',
+)
+Request URL: /fotoboth/Albums/img/noimage.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-21 21:24:54 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 41]
+2013-07-21 21:24:54 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 41, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 41, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-21 21:42:24 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 41]
+2013-07-21 21:42:24 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 41, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 41, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-21 23:41:08 Error: Fatal Error (1): Call to a member function read() on a non-object in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 36]
+2013-07-21 23:41:08 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 36, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 36, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-21 23:41:29 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/fotoboth/app/Controller/AlbumsController.php, line 36]
+2013-07-21 23:41:29 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 36, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 36, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-22 19:26:34 Error: Fatal Error (1): Cannot use object of type FormHelper as array in [/var/www/fotoboth/app/View/Albums/edit.ctp, line 60]
+2013-07-22 19:26:34 Error: [FatalErrorException] Cannot use object of type FormHelper as array
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/fotobo...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/fotobo...', 60, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/fotobo...', 60, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-22 19:34:40 Error: Fatal Error (1): Cannot use object of type FormHelper as array in [/var/www/fotoboth/app/View/Albums/edit.ctp, line 59]
+2013-07-22 19:34:40 Error: [FatalErrorException] Cannot use object of type FormHelper as array
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/fotobo...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-22 19:34:42 Error: Fatal Error (1): Cannot use object of type FormHelper as array in [/var/www/fotoboth/app/View/Albums/edit.ctp, line 59]
+2013-07-22 19:34:42 Error: [FatalErrorException] Cannot use object of type FormHelper as array
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/fotobo...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-22 19:34:42 Error: Fatal Error (1): Cannot use object of type FormHelper as array in [/var/www/fotoboth/app/View/Albums/edit.ctp, line 59]
+2013-07-22 19:34:42 Error: [FatalErrorException] Cannot use object of type FormHelper as array
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/fotobo...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-22 19:34:42 Error: Fatal Error (1): Cannot use object of type FormHelper as array in [/var/www/fotoboth/app/View/Albums/edit.ctp, line 59]
+2013-07-22 19:34:42 Error: [FatalErrorException] Cannot use object of type FormHelper as array
+Request URL: /fotoboth/Albums/edit/6
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/fotobo...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/fotobo...', 59, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 20:35:38 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:35:45 Error: [MissingViewException] View file "/var/www/fotoboth/app/View/Welcome/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/fotoboth/app/View/Welcome/index.ctp',
+)
+Request URL: /fotoboth/welcome
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/fotoboth/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-23 20:36:10 Error: [MissingControllerException] Controller class WelcomeController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomeController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcome
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:14 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:16 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:17 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:17 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:17 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:17 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:17 Error: [MissingControllerException] Controller class WelcomesController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomesController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:30 Error: [MissingControllerException] Controller class WelcomeController could not be found.
+Exception Attributes: array (
+  'class' => 'WelcomeController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/welcome
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 20:36:57 Error: [MissingViewException] View file "/var/www/fotoboth/app/View/Welcome/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/fotoboth/app/View/Welcome/index.ctp',
+)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/fotoboth/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-23 20:41:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 12]
+2013-07-23 20:41:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 12, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 12, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 20:42:56 Error: Fatal Error (4): syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 7]
+2013-07-23 20:42:56 Error: [FatalErrorException] syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 20:42:57 Error: Fatal Error (4): syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 7]
+2013-07-23 20:42:57 Error: [FatalErrorException] syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 20:42:57 Error: Fatal Error (4): syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 7]
+2013-07-23 20:42:57 Error: [FatalErrorException] syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 20:42:57 Error: Fatal Error (4): syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 7]
+2013-07-23 20:42:57 Error: [FatalErrorException] syntax error, unexpected 'Controller' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 20:43:09 Error: Fatal Error (1): Using $this when not in object context in [/var/www/fotoboth/lib/Cake/Controller/Controller.php, line 725]
+2013-07-23 20:43:09 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/var/www/fotobo...', 725)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/var/www/fotobo...', 725, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/var/www/fotobo...', 725, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 20:43:32 Error: Fatal Error (1): Using $this when not in object context in [/var/www/fotoboth/lib/Cake/Controller/Controller.php, line 725]
+2013-07-23 20:43:32 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /fotoboth/welcomes
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/var/www/fotobo...', 725)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/var/www/fotobo...', 725, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/var/www/fotobo...', 725, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-23 21:55:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/%3Cpre%20class=
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 22:34:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/%3Cpre%20class=
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 22:37:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-23 22:37:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/024.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/023.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/020.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/021.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/022.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/025.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/026.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 00:29:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/examples/027.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

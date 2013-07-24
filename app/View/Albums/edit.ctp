@@ -5,7 +5,7 @@
 	<div class="span12">
 	<?php echo $this->Form->create('Album', array('type'=>'file')); ?>
 	<fieldset>
-		<legend>Adicionar</legend>
+		<legend>Editar</legend>
 	 	<?php
 			echo $this->Form->input('title', array( 'class' => 'input-xxlarge', 
 													'placeholder' => 'Título',
@@ -56,6 +56,7 @@
 															'target' => '_blank',
 															'alt' => 'Adicionar mais imagems'));
 			echo '<div id="contentPictures"  class="hero-unit">';
+
 			echo $this->Form->input('Picture.0.title', array( 'class' => 'input-xlarge', 
 													'placeholder' => 'Título da foto',
 													'error' => array(

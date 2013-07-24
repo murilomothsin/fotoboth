@@ -160,10 +160,7 @@ class UploadComponent extends Component{
 	}
 
 	function uploadImg($PostPicture) {
-		pr($arrayKey);
-		pr($PostPicture);
 		if(empty($PostPicture['Img'])) {
-			pr('erro 1');
 			//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
 			return false;
 		}
@@ -171,12 +168,10 @@ class UploadComponent extends Component{
 		$this->setPath($path);
 		$this->addAllowedExt($PostPicture['Img']['type']);
 		$novo_picture = $this->copyUploadedFile($PostPicture['Img'], '');
-		pr($novo_picture);
 		//grava dados do arquivo no banco de dados
 		$PostPicture['dir'] = 'files';
 		$PostPicture['picture_path'] = $novo_picture;
 		$PostPicture['file_size'] = number_format($PostPicture['Img']['size']/1024, 2) . " KB";
-		pr($PostPicture);
 		return $PostPicture;
 	}
 }

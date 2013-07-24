@@ -6,7 +6,10 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<?php echo $this->Html->charset(); ?>
+	<?php echo $this->Html->charset(); 
+	echo $this->Html->meta('description', $Description);
+
+	?>
 	<title>
 		<?php echo $title_for_layout; ?>
 		<?php echo $Description ?>:
@@ -17,7 +20,10 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		echo $this->Html->css('bootstrap');
 		echo $this->Html->css('geral');
 
+		//include dos JS
 		echo $this->Html->script('vendor/jquery');
+		echo $this->Html->script('bootstrap-carousel');
+		echo $this->Html->script('bootstrap-transition');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -77,4 +83,6 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	</div>
 	<!-- <?php echo $this->element('sql_dump'); ?> -->
 </body>
+	
+
 </html>

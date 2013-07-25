@@ -32,7 +32,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 </head>
 <body>
 	<div id="header" class="container">
-		<div class="masthead" style="margin-bottom: -20px;">
+		<div class="masthead" style="margin-bottom: 40px; margin-top: 10px;">
 			<div class="row">
 				<div class="span4"><a href="#">
 					<?php
@@ -66,7 +66,6 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 				</div>
 			</div>
 		</div>
-		<br />
 		<div id="content" class="container">
 			<div class="row">
 				<div class="span12">

@@ -11,6 +11,10 @@ class WelcomesController extends AppController {
 	public function index() {
 		$this->set('albums', $this->Album->find('all'));
 	}
+
+	public function contato() {
+		$this->set('nomes', 'murilo');
+	}
 }
 
 

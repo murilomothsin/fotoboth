@@ -5159,3 +5159,21 @@ Request URL: /fotoboth/img/examples/027.jpg
 Stack Trace:
 #0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-07-25 00:16:39 Error: [MissingControllerException] Controller class NosController could not be found.
+Exception Attributes: array (
+  'class' => 'NosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/nos
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 00:16:58 Error: [MissingControllerException] Controller class NosController could not be found.
+Exception Attributes: array (
+  'class' => 'NosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/nos
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

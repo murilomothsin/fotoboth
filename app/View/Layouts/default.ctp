@@ -23,6 +23,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		//include dos JS
 		echo $this->Html->script('vendor/jquery');
 		echo $this->Html->script('bootstrap-carousel');
+		echo $this->Html->script('bootstrap-tab');
 		echo $this->Html->script('bootstrap-transition');
 
 		echo $this->fetch('meta');
@@ -34,33 +35,32 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	<div id="header" class="container">
 		<div class="masthead" style="margin-bottom: 40px; margin-top: 10px;">
 			<div class="row">
-				<div class="span4"><a href="#">
+				<div class="span4">
 					<?php
-					echo $this->Html->image("logo.png");
-					?>
-					<!-- <img src="img/logo.png" style="height: 125px;" > --></a></div>
+					echo $this->Html->link($this->Html->image("logo.png"), '/', array('escape' => false));
+					?></div>
 				<div class="span8">
 					<ul class="inline nav-pills pull-right" style="margin-top: 55px;">
 							<li>
-								<a href="#">Home</a>
+								<?php echo $this->Html->link('Home', '/home'); ?>
 							</li>
 							<li>
-								<a href="#">Loja</a>
+								<?php echo $this->Html->link('Loja', '/loja'); ?>
 							</li>
 							<li>
-								<a href="#">Book</a>
+								<?php echo $this->Html->link('Book', '/book'); ?>
 							</li>
 							<li>
-								<a href="#">Eventos</a>
+								<?php echo $this->Html->link('Eventos', '/eventos'); ?>
 							</li>
 							<li>
-								<a href="#">Externas</a>
+								<?php echo $this->Html->link('Externas', '/externas'); ?>
 							</li>
 							<li>
-								<a href="#">Videos</a>
+								<?php echo $this->Html->link('Videos', '/videos'); ?>
 							</li>
 							<li>
-								<a href="#">Contato</a>
+								<?php echo $this->Html->link('Contato', '/contato'); ?>
 							</li>
 					</ul>
 				</div>

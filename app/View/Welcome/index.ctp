@@ -9,10 +9,6 @@
 
 <?php //pr($albums); ?>
 <div id="myCarousel" class="carousel slide">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-  </ol>
   <!-- Carousel items -->
   <div class="carousel-inner" align="center">
 	<div class="active item"><img src="img/example/020.jpg" alt=""></div>

@@ -1,3 +1,6 @@
+
+<?php echo $this->Html->script('jquery.infinitecarousel3'); ?>
+
 <script type="text/javascript">
 !function ($) {
         $(function(){
@@ -7,7 +10,6 @@
       }(window.jQuery)
 </script>
 
-<?php //pr($albums); ?>
 <div id="myCarousel" class="carousel slide">
   <!-- Carousel items -->
   <div class="carousel-inner" align="center">

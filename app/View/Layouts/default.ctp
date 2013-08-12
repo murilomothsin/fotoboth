@@ -18,6 +18,8 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		// echo $this->Html->meta('icon');
 
 		echo $this->Html->css('bootstrap');
+		echo $this->Html->css('bootstrap-responsive');
+
 		echo $this->Html->css('geral');
 
 		//include dos JS
@@ -36,7 +38,9 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		<div class="masthead" style="margin-bottom: 40px; margin-top: 10px;">
 			<div class="row">
 				<div class="span4">
-					<?php echo $this->Html->link($this->Html->image("logo.png"), '/', array('escape' => false)); ?></div>
+					<?php 
+					echo $this->Html->link($this->Html->image("logo.png"), '/', array('escape' => false, 'class' => '.hidden-phone'));
+					?></div>
 				<div class="span8">
 					<ul class="inline nav-pills pull-right" style="margin-top: 55px;">
 							<li>

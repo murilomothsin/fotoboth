@@ -33,7 +33,7 @@ foreach ($albums as $album) {
 ?>
 
 <div class="tabbable tabs-right"> <!-- Only required for left/right tabs -->
-	<ul class="nav nav-tabs nav-stacked" style="width: 210px; height: 390px; overflow: auto;">
+	<ul class="nav nav-tabs nav-stacked" style="width: 250px; max-height: 390px; overflow: auto;">
 		<?php echo $listBook; ?>
 	</ul>
 	<div class="tab-content">

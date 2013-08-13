@@ -5375,3 +5375,12 @@ Request URL: /fotoboth/img/logoPhone.png
 Stack Trace:
 #0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-08-12 23:59:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/noimage.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

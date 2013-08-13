@@ -37,6 +37,9 @@
 		opacity: 0.1;
 		display: table;
 	}
+	.carousel-control:hover {
+		opacity: 0.5;
+	}
 	.control1 {
 		display: table-cell;
 	    vertical-align: middle;
@@ -118,6 +121,9 @@
 		vertical-align: middle;
 		opacity: 0.2;
 		display: table;
+	}
+	.carousel-control:hover {
+		opacity: 0.5;
 	}
 	.control1 {
 		display: table-cell;

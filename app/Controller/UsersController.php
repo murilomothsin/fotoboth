@@ -13,7 +13,7 @@
 
 		public function admin_login() {
 			if ($this->Auth->login()) {
-				$this->redirect($this->Auth->redirect());
+				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('Invalid username or password, try again'));
 			}

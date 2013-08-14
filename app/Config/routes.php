@@ -29,6 +29,9 @@
 	Router::connect('/', array('controller' => 'welcomes', 'action' => 'index'));
 
 	Router::connect('/admin', array('controller' => 'users', 'action' => 'login', 'admin' => true));
+	Router::connect('/admin/albums', array('controller' => 'albums', 'action' => 'index', 'admin' => true));
+	//Router::connect('/admin', array('controller' => 'users', 'action' => 'login', 'admin' => true));
+	//Router::connect('/admin', array('controller' => 'users', 'action' => 'login', 'admin' => true));
 	
 	Router::connect('/home', array('controller' => 'welcomes', 'action' => 'index'));
 	Router::connect('/loja', array('controller' => 'welcomes', 'action' => 'loja'));

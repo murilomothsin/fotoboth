@@ -27,6 +27,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		echo $this->Html->script('bootstrap-carousel');
 		echo $this->Html->script('bootstrap-tab');
 		echo $this->Html->script('bootstrap-transition');
+		echo $this->Html->script('bootstrap-dropdown');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -82,7 +83,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 			</div>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<!-- <?php echo $this->element('sql_dump'); ?> -->
 </body>
 	
 

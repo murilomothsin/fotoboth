@@ -1,14 +1,12 @@
+<?php  $helpers = array('Link'); ?>
+
 <div class="row">
+	<?php echo $this->Link->makeLink(); ?>
 	<div class="large-12 columns">
-		<h3>Usuarios</h3>
+		<legend><?php echo __('Usuário'); ?></legend>
 	</div>
-<div>
-	<ul>
-		<li><?php echo $this->Html->link('Adicionar', array('action' => 'add')); ?></li>
-	</ul>
-</div>
 <div class="large-12 columns">
-	<table cellpadding="0" cellspacing="0">
+	<table cellpadding="0" cellspacing="0" class="table table-hover">
 	   <tr>
 		  <th>Id</th>
 		  <th>Nome</th>
@@ -20,13 +18,10 @@
 	<?php
 
 	$i = 0;
-	foreach ($users as $user)
-	{
-	   $class = null;
-	   if($i++ % 2 == 0)
-	   {
-		  $class = '';
-	   }
+	foreach ($users as $user){
+		$class = null;
+		if($user['User']['role'] == 'admin')
+			$class = 'class="info"';		
 
 	?>
 	   <tr <?php echo $class; ?>>

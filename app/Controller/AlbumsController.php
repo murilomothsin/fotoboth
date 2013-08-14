@@ -8,19 +8,19 @@ class AlbumsController extends AppController {
 
 	var $components = array('Upload');
 
-	public function isAuthorized($user) {
-		if (!parent::isAuthorized($user)) {
-			if ($this->action === 'add') {
-				// All registered users can add posts
-				return true;
-			}
-			if (in_array($this->action, array('edit', 'delete'))) {
-				$postId = $this->request->params['pass'][0];
-				return $this->Post->isOwnedBy($postId, $user['id']);
-			}
-		}
-		return false;
-	}
+	// public function isAuthorized($user) {
+	// 	if (!parent::isAuthorized($user)) {
+	// 		if ($this->action === 'add') {
+	// 			// All registered users can add posts
+	// 			return true;
+	// 		}
+	// 		if (in_array($this->action, array('edit', 'delete'))) {
+	// 			$postId = $this->request->params['pass'][0];
+	// 			return $this->Post->isOwnedBy($postId, $user['id']);
+	// 		}
+	// 	}
+	// 	return false;
+	// }
 
 	public function admin_index() {
 		$this->set('albums', $this->Album->find('all'));

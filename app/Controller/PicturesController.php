@@ -9,12 +9,12 @@ class PicturesController extends AppController {
 	var $components = array('Upload');
 	
 
-	public function index() {
+	public function admin_index() {
 		$this->set('pictures', $this->Picture->find('all'));
 	}
 
 
-	function add() {
+	function admin_add() {
 		if (!empty($this->request->data)) {
 			$this->request->data['Picture'] = $this->Upload->uploadImg($this->request->data['Picture']);
 			if ($this->Picture->save($this->request->data)) { //salva o trabalho

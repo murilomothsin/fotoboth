@@ -82,7 +82,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 			</div>
 		</div>
 	</div>
-	<!-- <?php echo $this->element('sql_dump'); ?> -->
+	<?php echo $this->element('sql_dump'); ?>
 </body>
 	
 

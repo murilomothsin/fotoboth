@@ -8,6 +8,11 @@ class WelcomesController extends AppController {
 
 	public $uses = 'Album';
 
+	public function beforeFilter() {
+		parent::beforeFilter();
+		$this->Auth->allow('loja', 'book', 'eventos', 'externas', 'videos', 'contato');
+	}
+
 	public function index() {
 		$this->set('albums', $this->Album->find('all'));
 	}

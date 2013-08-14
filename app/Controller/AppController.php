@@ -33,6 +33,33 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
-	public $components = array('Upload', 'Session');
+	public $components = array('Upload', 
+								'Session', 
+								'Auth' => array(
+									'loginRedirect' => array('controller' => 'users', 'action' => 'login'),
+									'logoutRedirect' => array('controller' => 'categories', 'action' => 'login'),
+									'authorize' => array('Controller')
+						));
+
+	public function isAuthorized($user) {
+		if (isset($user['role']) && $user['role'] === 'admin') {
+			return true; //Admin pode acessar todas actions
+		}
+		return false; // O resto não pode
+		}
+
+	function beforeFilter() {
+		$this->Auth->allow('index');
+		if (isset($this->params['admin'])) {
+			$this->Auth->deny('*'); // nega sempre que a rota for admin
+		} else {
+			$this->Auth->allow('*'); // permite todas as que não forem admin
+		}
+		Security::setHash('md5'); // seta o tipo de encriptação, pode ser sha ou outra também
+		//$this->Auth->loginAction = array('controller'=>'pictures', 'action'=>'index');
+		//$this->Auth->autoRedirect = false; //ativado redireciona o usuário para a requisição anterior que foi negada após o login
+		$this->Auth->loginError = __('Usuário e/ou senha incorreto(s)', true);
+        $this->Auth->authError = __('Você precisa fazer login para acessar esta página', true);
+	}
 
 }

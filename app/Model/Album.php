@@ -37,6 +37,10 @@
 		  )
 		);
 
+		public function isOwnedBy($album, $user) {
+			return $this->field('id', array('id' => $album, 'user_id' => $user)) === $album;
+		}
+
 	}
 
 ?>

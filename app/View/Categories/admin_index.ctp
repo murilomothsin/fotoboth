@@ -1,4 +1,6 @@
-<div class="row">
+
+<?php  $helpers = array('Link'); ?>
+<?php echo $this->Link->makeLink(); ?><div class="row">
 	<div class="large-12 columns">
 		<h3>Categorias</h3>
 	</div>

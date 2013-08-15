@@ -1,3 +1,5 @@
+<?php  $helpers = array('Link'); ?>
+<?php echo $this->Link->makeLink(); ?>
 <div class="row">
 	<div class="large-12 columns">
 		<h3>Fotos</h3>

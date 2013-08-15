@@ -1,3 +1,5 @@
+<?php  $helpers = array('Link'); ?>
+<?php echo $this->Link->makeLink(); ?>
 <div class="row">
 	<div class="span12">
 		<h3>Albuns</h3>

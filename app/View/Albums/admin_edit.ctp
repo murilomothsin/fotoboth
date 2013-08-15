@@ -1,3 +1,5 @@
+<?php  $helpers = array('Link'); ?>
+<?php echo $this->Link->makeLink(); ?>
 <script type="text/javascript">
 
 </script>

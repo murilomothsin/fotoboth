@@ -18,13 +18,9 @@
 	<?php
 
 	$i = 0;
-	foreach ($users as $user){
-		$class = null;
-		if($user['User']['role'] == 'admin')
-			$class = 'class="info"';		
-
+	foreach ($users as $user){	
 	?>
-	   <tr <?php echo $class; ?>>
+	   <tr>
 		  <td><?php echo $user['User']['id']; ?></td>
 		  <td><?php echo $user['User']['name']; ?></td>
 		  <td><?php echo $user['User']['username']; ?></td>

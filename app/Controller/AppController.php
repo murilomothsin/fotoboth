@@ -57,7 +57,7 @@ class AppController extends Controller {
 		}
 		Security::setHash('md5'); // seta o tipo de encriptação, pode ser sha ou outra também
 		//$this->Auth->loginAction = array('controller'=>'pictures', 'action'=>'index');
-		//$this->Auth->autoRedirect = false; //ativado redireciona o usuário para a requisição anterior que foi negada após o login
+		$this->Auth->autoRedirect = true; //ativado redireciona o usuário para a requisição anterior que foi negada após o login
 		$this->Auth->loginError = __('Usuário e/ou senha incorreto(s)', true);
         $this->Auth->authError = __('Você precisa fazer login para acessar esta página', true);
 	}

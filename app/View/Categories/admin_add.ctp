@@ -1,3 +1,5 @@
+<?php  $helpers = array('Link'); ?>
+<?php echo $this->Link->makeLink(); ?>
 <div>
 	<?php echo $this->Form->create('Category'); ?>
 	<fieldset>

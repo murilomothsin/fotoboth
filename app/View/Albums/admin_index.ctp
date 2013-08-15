@@ -1,15 +1,11 @@
 <?php  $helpers = array('Link'); ?>
-<?php echo $this->Link->makeLink(); ?>
 <div class="row">
-	<div class="span12">
-		<h3>Albuns</h3>
+<?php echo $this->Link->makeLink(); ?>
+
+	<div class="large-12 columns">
+		<legend><?php echo __('Albuns'); ?></legend>
 	</div>
-<div>
-	<ul>
-		<li><?php echo $this->Html->link('Adicionar', array('action' => 'add')); ?></li>
-	</ul>
-</div>
-<div class="span12">
+<div class="large-12 columns">
 	<table cellpadding="0" cellspacing="0" class="table table-hover">
 		<thead>
 		   <tr>
@@ -21,7 +17,7 @@
 			  <th>modelo</th>
 			  <th>Quando</th>
 			  <th>Categoria</th>
-			  <th>Ações</th>
+			  <th>&nbsp;</th>
 		   </tr>
 	   </thead>
 	   <tbody>
@@ -39,8 +35,9 @@
 			  <td><?php echo $album['Category']['category']; ?></td>
 			  <td>
 			  <?php
-			  echo $this->Html->link('Editar', array('action' => 'edit', $album['Album']['id']));
-			  echo $this->Form->postLink('Deletar', array('action' => 'delete', $album['Album']['id']), array('confirm' => 'Você tem certeza que quer excluir este album?'));
+			  echo $this->Html->link('<i class="icon-pencil"></i>', array('action' => 'edit', $album['Album']['id']), array('escape' => false, 'style' => 'padding: 5px'));
+			  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $album['Album']['id']), array('confirm' => 'Você tem certeza que quer excluir este album?',
+		  		'escape' => false, 'style' => 'padding: 5px'));
 			  ?>
 			  </td>
 		   </tr>

@@ -13,7 +13,7 @@
 		  <th>Username</th>
 		  <th>Email</th>
 		  <th>Categoria</th>
-		  <th>Actions</th>
+		  <th>&nbsp;</th>
 	   </tr>
 	<?php
 
@@ -27,9 +27,11 @@
 		  <td><?php echo $user['User']['email']; ?></td>
 		  <td><?php echo $user['User']['role']; ?></td>
 		  <td class='actions'>
+		  	
 		  <?php
-		  echo $this->Html->link('Editar', array('action' => 'edit', $user['User']['id']));
-		  echo $this->Form->postLink('Deletar', array('action' => 'delete', $user['User']['id']), array('confirm' => 'Você tem certeza que quer excluir este usuário?'));
+		  echo $this->Html->link('<i class="icon-pencil"></i>', array('action' => 'edit', $user['User']['id']), array('escape' => false, 'style' => 'padding: 5px'));
+		  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $user['User']['id']), array('confirm' => 'Você tem certeza que quer excluir este usuário?',
+		  		'escape' => false, 'style' => 'padding: 5px'));
 		  ?>
 		  </td>
 	   </tr>

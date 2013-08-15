@@ -57,7 +57,7 @@
 			echo $this->Html->link('+', 'javascript:addImage();', array('class' => 'btn', 
 															'target' => '_blank',
 															'alt' => 'Adicionar mais imagems'));
-			echo '<div id="contentPictures"  class="hero-unit">';
+			echo '<div id="contentPictures"  class="well well-small">';
 			echo $this->Form->input('Picture.0.title', array( 'class' => 'input-xlarge', 
 													'placeholder' => 'Título da foto',
 													'error' => array(
@@ -73,11 +73,5 @@
 		echo $this->Form->end('ENVIAR', array( 'class' => 'btn btn-primary'));
 	?>
 	</div>
-</div>
-<div>
-	<h3>Actions</h3>
-	<ul>
-		<li><?php echo $this->Html->link('Listar', array('action' => 'index')); ?></li>
-	</ul>
 </div>
 <?php echo $this->Html->script('Albums'); ?>

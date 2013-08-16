@@ -6137,3 +6137,31 @@ Stack Trace:
 #3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-08-15 18:59:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'destroy' at line 1
+Request URL: /fotoboth/admin/albums/delete/3
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('destroy', Array)
+#2 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('destroy', Array, Array)
+#3 /var/www/fotoboth/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('destroy', Array, Array)
+#4 /var/www/fotoboth/lib/Cake/Model/Model.php(800): DboSource->query('destroy', Array, Object(Album))
+#5 /var/www/fotoboth/app/Controller/AlbumsController.php(51): Model->__call('destroy', Array)
+#6 /var/www/fotoboth/app/Controller/AlbumsController.php(51): Album->destroy()
+#7 [internal function]: AlbumsController->admin_delete('3')
+#8 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(AlbumsController), Array)
+#9 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-08-15 19:01:55 Error: [MissingViewException] View file "/var/www/fotoboth/app/View/Albums/admin_delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/fotoboth/app/View/Albums/admin_delete.ctp',
+)
+Request URL: /fotoboth/admin/albums/delete/3
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/fotoboth/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -46,6 +46,11 @@ class AlbumsController extends AppController {
 		}
 	}
 
+	function admin_delete($id = null) {
+		$this->Album->id = $id;
+		$this->Album->delete();
+	}
+
 	function admin_edit($id = null) {
 		$this->Album->id = $id;
 		$categories = $this->Album->Category->find('list');

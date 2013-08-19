@@ -1,10 +1,3 @@
-<script type="text/javascript">
-!function ($) {
-	$(function(){
-		$('#myCarousel').carousel()
-	})
-}(window.jQuery)
-</script>
 <div style="min-height: 435px;" align="center">
 	<div id="myCarousel" class="carousel slide loja">
 	  	<!-- Carousel items -->

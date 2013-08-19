@@ -67,6 +67,9 @@
 									            ));
 			echo $this->Form->input('Picture.0.Img', array('type'=>'file', 'onChange' => 'ImagePreview(0)'));
 		?>
+		<input id="file_upload" name="file_upload" type="file" />
+	<a href="javascript:$('#file_upload').uploadifyUpload();">Upload dos arquivos</a>
+
 	</div>
 	</fieldset>
 	<?php 
@@ -74,4 +77,19 @@
 	?>
 	</div>
 </div>
-<?php echo $this->Html->script('Albums'); ?>
+
+<?php echo $this->Html->script('vendor/jquery'); ?>
+
+<script type="text/javascript">
+		<?php $timestamp = time();?>
+		$(function() {
+			$('#file_upload').uploadify({
+				'formData'     : {
+					'timestamp' : '<?php echo $timestamp;?>',
+					'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+				},
+				'swf'      : 'uploadify.swf',
+				'uploader' : 'uploadify.php'
+			});
+		});
+	</script>

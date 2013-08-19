@@ -6165,3 +6165,1048 @@ Stack Trace:
 #3 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2013-08-19 00:06:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/bootstrap.css
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-transition.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-carousel.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-tab.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/bootstrap-responsive.css
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-dropdown.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/bootstrap.css
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-transition.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/bootstrap-responsive.css
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-tab.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-carousel.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/bootstrap-dropdown.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:06:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/img/glyphicons-halflings.png
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:07:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/jquery.infinitecarousel3.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:07:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/jquery.infinitecarousel3.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:15:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/uploadify/uploadify.css
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:15:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/uploadify/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:15:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/uploadify/uploadify.css
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:21:14 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376882474627
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:21:14 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376882474627
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:21:14 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376882474627
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:44:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/uploadify/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:44:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/css/img/glyphicons-halflings.png
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:44:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/uploadify/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:44:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/js/uploadify/jquery.uploadify-3.1.min.js
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-19 00:46:02 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376883962023
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:46:02 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376883962023
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:46:02 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376883962023
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:46:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376883965999
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:46:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376883965999
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:46:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376883965999
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:49:05 Error: [MissingActionException] Action AlbumsController::admin_jquery.uploadify.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_jquery.uploadify.min.js',
+)
+Request URL: /fotoboth/admin/albums/jquery.uploadify.min.js
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:49:17 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884157647
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:49:17 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884157647
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:49:17 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884157647
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:01 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884201753
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:01 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884201753
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:01 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884201753
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884236875
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884236875
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:37 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884236875
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:39 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884239205
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:39 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884239205
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:50:39 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884239205
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:04 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884324157
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:04 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884324157
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:04 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884324157
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:05 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884325207
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:05 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884325207
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:05 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884325207
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884326101
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884326101
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884326101
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884326846
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:06 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884326846
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:07 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884326846
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:07 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884327380
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:07 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884327380
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:07 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884327380
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884356203
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884356203
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:52:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884356203
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:00 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884560688
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:00 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884560688
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:00 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884560688
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:02 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884561997
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:02 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884561997
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:02 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884561997
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:22 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884582939
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:23 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884582939
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:23 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884582939
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:24 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884583969
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:24 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884583969
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:24 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884583969
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:24 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884584871
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:24 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884584871
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:25 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884584871
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:25 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884585858
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:25 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884585858
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:26 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884585858
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:26 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884586633
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:26 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884586633
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:26 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884586633
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:27 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884587441
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:27 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884587441
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:27 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884587441
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:34 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884594758
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:34 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884594758
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:34 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884594758
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:35 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884595539
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:35 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884595539
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:35 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884595539
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884596462
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884596462
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:56:36 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884596462
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:57:57 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884677937
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:57:58 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884677937
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:57:58 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884677937
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-19 00:59:32 Error: [MissingActionException] Action AlbumsController::admin_uploadify.swf() could not be found.
+Exception Attributes: array (
+  'controller' => 'AlbumsController',
+  'action' => 'admin_uploadify.swf',
+)
+Request URL: /fotoboth/admin/albums/uploadify.swf?preventswfcaching=1376884677937
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AlbumsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

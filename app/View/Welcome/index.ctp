@@ -1,14 +1,3 @@
-
-<?php echo $this->Html->script('jquery.infinitecarousel3'); ?>
-
-<script type="text/javascript">
-!function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
-</script>
 <center>
 	<div id="myCarousel" class="carousel slide">
 	  <!-- Carousel items -->

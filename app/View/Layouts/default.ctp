@@ -17,17 +17,11 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	<?php
 		// echo $this->Html->meta('icon');
 
-		echo $this->Html->css('bootstrap');
-		echo $this->Html->css('bootstrap-responsive');
+		echo $this->Html->css('bootstrap/bootstrap');
+		echo $this->Html->css('bootstrap/bootstrap-responsive');
+		echo $this->Html->css('uploadify/uploadify');
 
 		echo $this->Html->css('geral');
-
-		//include dos JS
-		echo $this->Html->script('vendor/jquery');
-		echo $this->Html->script('bootstrap-carousel');
-		echo $this->Html->script('bootstrap-tab');
-		echo $this->Html->script('bootstrap-transition');
-		echo $this->Html->script('bootstrap-dropdown');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -85,6 +79,17 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	</div>
 	<!-- <?php echo $this->element('sql_dump'); ?> -->
 </body>
-	
+
+<?php
+	//include dos JS
+//	echo $this->Html->script('vendor/jquery');
+	echo $this->Html->script('bootstrap/bootstrap-carousel');
+	echo $this->Html->script('bootstrap/bootstrap-tab');
+	echo $this->Html->script('bootstrap/bootstrap-transition');
+	echo $this->Html->script('bootstrap/bootstrap-dropdown');
+	echo $this->Html->script('uploadify/jquery.uploadify.min');
+	echo $this->Html->script('geral');
+	echo $this->Html->script('Albums');
+?>	
 
 </html>

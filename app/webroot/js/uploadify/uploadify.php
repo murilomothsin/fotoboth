@@ -8,13 +8,14 @@ Released under the MIT License <http://www.opensource.org/licenses/mit-license.p
 // Define a destination
 $targetFolder = '/uploads'; // Relative to the root
 
-$verifyToken = md5('unique_salt' . $_POST['timestamp']);
 
-if (!empty($_FILES) && $_POST['token'] == $verifyToken) {
+var_dump($_FILES);
+if (!empty($_FILES)) {
 	$tempFile = $_FILES['Filedata']['tmp_name'];
 	$targetPath = $_SERVER['DOCUMENT_ROOT'] . $targetFolder;
 	$targetFile = rtrim($targetPath,'/') . '/' . $_FILES['Filedata']['name'];
-	
+	$nameFile = $_FILES['Filedata']['tmp_name'];
+	echo $nameFile;	
 	// Validate the file type
 	$fileTypes = array('jpg','jpeg','gif','png'); // File extensions
 	$fileParts = pathinfo($_FILES['Filedata']['name']);

@@ -67,8 +67,7 @@
 									            ));
 			echo $this->Form->input('Picture.0.Img', array('type'=>'file', 'onChange' => 'ImagePreview(0)'));
 		?>
-		<input id="file_upload" name="file_upload" type="file" />
-	<a href="javascript:$('#file_upload').uploadifyUpload();">Upload dos arquivos</a>
+	<input height="30" width="110" type="file" name="fileInput" id="fileInput" align="center" />
 
 	</div>
 	</fieldset>
@@ -78,18 +77,25 @@
 	</div>
 </div>
 
-<?php echo $this->Html->script('vendor/jquery'); ?>
+<?php echo $this->Html->script('vendor/jquery'); 
+echo $this->Html->script('uploadify/jquery.uploadify.min'); ?>
 
 <script type="text/javascript">
-		<?php $timestamp = time();?>
-		$(function() {
-			$('#file_upload').uploadify({
-				'formData'     : {
-					'timestamp' : '<?php echo $timestamp;?>',
-					'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
-				},
-				'swf'      : 'uploadify.swf',
-				'uploader' : 'uploadify.php'
-			});
-		});
-	</script>
+    $(document).ready(function(){
+        var path = "<?php echo $this->Html->url('/files/uploadify/', true) ?>";
+        $('#fileInput').uploadify({
+            'swf': path + 'uploader.swf',
+            'uploader': path + 'uploadify.php',
+            'folder': '/uploads',
+            'method': 'post',
+            'preventCaching': true,
+            'fileTypeExts': "*.*; *.jpg; *.png; *.gif",
+            'fileTypeDesc': "Image files",
+            'fileSizeLimit': '15MB',
+            'auto': true,
+            'onUploadSuccess': function(file, data, response) {
+            	alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':\n' + data);
+        	}
+        });
+    });
+</script>

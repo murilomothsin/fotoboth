@@ -5,6 +5,7 @@
 </script>
 <div class="row">
 	<div class="span12">
+	<?php $timeInit = date('dmo-His'); ?>
 	<?php echo $this->Form->create('Album', array('type'=>'file')); ?>
 	<fieldset>
 		<legend>Adicionar</legend>
@@ -78,7 +79,8 @@
 </div>
 
 <?php echo $this->Html->script('vendor/jquery'); 
-echo $this->Html->script('uploadify/jquery.uploadify.min'); ?>
+echo $this->Html->script('uploadify/jquery.uploadify.min'); 
+?>
 
 <script type="text/javascript">
     $(document).ready(function(){
@@ -88,6 +90,7 @@ echo $this->Html->script('uploadify/jquery.uploadify.min'); ?>
             'uploader': path + 'uploadify.php',
             'folder': '/uploads',
             'method': 'post',
+            'formData'      : {'User' : '<?php echo AuthComponent::user('username');?>', 'dataInicio' : '<?php echo $timeInit; ?>'},
             'preventCaching': true,
             'fileTypeExts': "*.*; *.jpg; *.png; *.gif",
             'fileTypeDesc': "Image files",

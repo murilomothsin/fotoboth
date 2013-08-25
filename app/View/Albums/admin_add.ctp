@@ -5,7 +5,7 @@
 </script>
 <div class="row">
 	<div class="span12">
-	<?php $timeInit = date('dmo-His'); ?>
+	<?php $timeInit = date('dmoHis'); ?>
 	<?php echo $this->Form->create('Album', array('type'=>'file')); ?>
 	<fieldset>
 		<legend>Adicionar</legend>
@@ -54,22 +54,10 @@
 													'wrap' => 'div', 
 													'class' => 'formerror'
 													)
-									            ));
-			// echo $this->Html->link('+', 'javascript:addImage();', array('class' => 'btn', 
-			// 												'target' => '_blank',
-			// 												'alt' => 'Adicionar mais imagems'));
-			echo '<div id="contentPictures"  class="well well-small">';
-			// echo $this->Form->input('Picture.0.title', array( 'class' => 'input-xlarge', 
-			// 										'placeholder' => 'Título da foto',
-			// 										'error' => array(
-			// 										'wrap' => 'div', 
-			// 										'class' => 'formerror'
-			// 										)
-			// 						            ));
-			// echo $this->Form->input('Picture.0.Img', array('type'=>'file', 'onChange' => 'ImagePreview(0)'));
-		?>
-	<input height="30" width="110" type="file" name="fileInput" id="fileInput" align="center" />
-
+									            )); ?>
+	<div id="contentPictures"  class="well well-small">
+		<input type="hidden" name="initDate" value="<?php echo $timeInit; ?>" />
+		<input height="30" width="110" type="file" name="fileInput" id="fileInput" align="center" />
 	</div>
 	</fieldset>
 	<?php 

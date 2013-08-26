@@ -27,16 +27,48 @@ class AlbumsController extends AppController {
 	}
 
 	public function admin_add(){
-		
+
 		$categories = $this->Album->Category->find('list');
 		$this->set(compact('categories'));
 
 		if($this->request->is('post')){
+			pr($this->request->data);
+			//die();
+			//vai para o diretorio TEMPORARIO
+			echo chdir('files/uploadify/temp');
+
+			$targetPath = AuthComponent::user('username').$this->request->data['timeInit'];
+			$pathToCopy =  realpath('../../../img/pictures');
+			$pathToCopy .= '/'.$this->request->data['timeInit'].'/';
+			if( is_dir($targetPath) ){
+				$files1 = scandir($targetPath);
+				unset($files1[0]);
+				unset($files1[1]);
+				sort($files1);
+				
+				mkdir($pathToCopy);
+				//$this->request->data['Picture'] = array();
+				
+				foreach ($files1 as $key => $value) {
+					rename($targetPath.'/'.$value, $pathToCopy.$value);
+					$file_size = filesize($pathToCopy.$value);
+					$this->request->data['Picture'][$key]['picture_path'] = $value;
+					$this->request->data['Picture'][$key]['dir'] = $this->request->data['timeInit'];
+					$this->request->data['Picture'][$key]['file_size'] = number_format($file_size/1024, 2) . " KB";
+				}
+				rmdir($targetPath);
+			}
+
+			if( !is_dir($pathToCopy) )
+				mkdir($pathToCopy);
+			rename($this->request->data['Picture']['0']['Img']['tmp_name'], $pathToCopy.$this->request->data['Picture']['0']['Img']['name']);
+			$this->request->data['Picture']['0']['picture_path'] = $this->request->data['Picture']['0']['Img']['name'];
+			$this->request->data['Picture']['0']['dir'] = $this->request->data['timeInit'];
+			$this->request->data['Picture']['0']['file_size'] = number_format($this->request->data['Picture']['0']['Img']['size']/1024, 2) . " KB";
+
+
 			$this->Album->create();
 			$this->request->data['Album']['user_id'] = $this->Auth->user('id');
-			foreach ($this->request->data['Picture'] as $key => $value) {
-				$this->request->data['Picture'][$key] = $this->Upload->uploadImg($this->request->data['Picture'][$key], $key);
-			}
 			if($this->Album->saveAll($this->request->data)){
 				$this->Session->setFlash("Album foi adicionado com sucesso!");
 				$this->redirect(array('action' => 'index'));

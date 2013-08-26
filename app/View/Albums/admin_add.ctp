@@ -54,11 +54,22 @@
 													'wrap' => 'div', 
 													'class' => 'formerror'
 													)
-									            )); ?>
-	<div id="contentPictures"  class="well well-small">
-		<input type="hidden" name="initDate" value="<?php echo $timeInit; ?>" />
-		<input height="30" width="110" type="file" name="fileInput" id="fileInput" align="center" />
-	</div>
+
+									            ));
+			echo $this->Form->input('Picture.0.title', array( 'class' => 'input-xlarge', 
+													'placeholder' => 'Título da foto',
+													'error' => array(
+													'wrap' => 'div', 
+													'class' => 'formerror'
+													)
+									            ));
+			echo $this->Form->input('Picture.0.Img', array('type'=>'file'));
+			echo $this->Form->input('Picture.0.is_principal', array('type'=>'hidden', 'value' => '1'));
+		?>
+		<div id="contentPictures"  class="well well-small">
+			<input type="hidden" name="timeInit" value="<?php echo $timeInit; ?>">
+			<input height="30" width="110" type="file" name="fileInput" id="fileInput" align="center" />
+		</div>
 	</fieldset>
 	<?php 
 		echo $this->Form->end('ENVIAR', array( 'class' => 'btn btn-primary'));
@@ -78,6 +89,7 @@ echo $this->Html->script('uploadify/jquery.uploadify.min');
             'uploader': path + 'uploadify.php',
             'folder': '/uploads',
             'method': 'post',
+            'removeCompleted' : false,
             'formData'      : {'User' : '<?php echo AuthComponent::user('username');?>', 'dataInicio' : '<?php echo $timeInit; ?>'},
             'preventCaching': true,
             'fileTypeExts': "*.*; *.jpg; *.png; *.gif",
@@ -86,7 +98,7 @@ echo $this->Html->script('uploadify/jquery.uploadify.min');
             'auto': true,
             'onUploadSuccess': function(file, data, response) {
             	alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':\n' + data);
-        	}
+        	},
         });
     });
 </script>

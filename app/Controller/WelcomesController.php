@@ -22,7 +22,8 @@ class WelcomesController extends AppController {
 	}
 
 	public function book() {
-		$this->set('albums', $this->Album->find('all'));
+		$this->set('albums', $this->Album->find('all', array(
+        'conditions' => array('category_id' => '1'))));
 	}
 
 	public function eventos() {

@@ -87,9 +87,12 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	echo $this->Html->script('bootstrap/bootstrap-tab');
 	echo $this->Html->script('bootstrap/bootstrap-transition');
 	echo $this->Html->script('bootstrap/bootstrap-dropdown');
+	echo $this->Html->script('bootstrap/bootstrap-modal');
 	echo $this->Html->script('uploadify/jquery.uploadify.min');
+	echo $this->Html->script('galleria/galleria-1.2.9.min');
 	echo $this->Html->script('geral');
 	echo $this->Html->script('Albums');
+	
 ?>	
 
 </html>

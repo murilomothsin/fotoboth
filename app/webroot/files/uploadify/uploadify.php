@@ -4,10 +4,19 @@
 $targetFolder = 'temp'; // Relative to the root
 
 if (!empty($_FILES)) {
+
+	$targetPath = $targetFolder.'/'.$_POST['User'].$_POST['dataInicio'];
+
+	if( is_dir($targetPath) )
+		echo 'diretoiro ja existe!';
+	else
+		echo mkdir($targetPath, 0777);
+
 	$tempFile = $_FILES['Filedata']['tmp_name'];
-	$targetPath = $targetFolder;
 	$targetFile = rtrim($targetPath,'/') . '/'.$_FILES['Filedata']['name'];
 	
+	
+
 	// Validate the file type
 	$fileTypes = array('jpg','jpeg','gif','png'); // File extensions
 	$fileParts = pathinfo($_FILES['Filedata']['name']);

@@ -1,6 +1,4 @@
 <?php
-echo $this->Html->script('vendor/jquery');
-echo $this->Html->script('galleria/galleria-1.2.9.min');
 	$i = 1;
 	$listBook = '';
 	$contentTab = '';
@@ -10,7 +8,9 @@ echo $this->Html->script('galleria/galleria-1.2.9.min');
 		//pr($album);
 		
 		$imgPath = 'img/noimage.png';
+		$dir = null;
 		foreach ($album['Picture'] as $key => $value) {
+			$dir = $value['dir'];
 			if($value['is_principal'] == '1')
 				$imgPath = 'img/pictures/'.$value['dir'].'/'.$value['picture_path'];
 		}
@@ -21,7 +21,7 @@ echo $this->Html->script('galleria/galleria-1.2.9.min');
 							<img src="'.$imgPath.'" alt="" style="padding: 5px; height: 250px;">
 							<center><h4>'.$album['Album']['title'].'</h4>
 							<p>'.$album['Album']['description'].'<br />
-								<a href="#myModal" role="button" class="btn" data-toggle="modal">Ver mais fotos</a></center>
+								<a href="#myModal" role="button" class="btn" data-toggle="modal" onclick="getAjax('.$dir.');">Ver mais fotos</a></center>
 							</p>
 						</div>
 					   </div>';
@@ -40,25 +40,18 @@ echo $this->Html->script('galleria/galleria-1.2.9.min');
 	</div>
 </div>
 
-
+<style type="text/css">
+body .modal {
+	width: 75%;
+	margin-left: -36%;	
+}
+</style>
 <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <div id="galleria">
-	    <img src="img/pictures/images.jpg">
-	    <img src="img/pictures/images (1).jpg">
-	    <img src="img/pictures/images (3).jpg">
-	</div>
-	<script>
-	    Galleria.loadTheme('js/galleria/themes/classic/galleria.classic.min.js');
-	    Galleria.run('#galleria');
-	</script>
+  <div class="modal-body" style="overflow: hidden;">
+    <div id="contentView" ></div>
   </div>
   <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true" id="CloseModal">Close</button>
   </div>
 </div>

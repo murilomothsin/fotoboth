@@ -80,6 +80,7 @@ class AlbumsController extends AppController {
 
 	function admin_delete($id = null) {
 		$this->Album->id = $id;
+		
 		if($this->Album->delete()){
 			$this->Session->setFlash("Album foi excluido com sucesso!");
 			$this->redirect(array('action' => 'index'));

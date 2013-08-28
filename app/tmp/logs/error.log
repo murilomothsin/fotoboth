@@ -9170,3 +9170,14 @@ Request URL: /fotoboth/img/pictures/files/tumblr_mbk5lk9nUv1rylhq2o1_500.jpg
 Stack Trace:
 #0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-08-28 10:51:23 Error: [MissingActionException] Action PicturesController::admin_delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'PicturesController',
+  'action' => 'admin_delete',
+)
+Request URL: /fotoboth/admin/pictures/delete/16
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PicturesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

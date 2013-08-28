@@ -6,7 +6,9 @@
 
 		public $name = 'Album';
 
-		public $hasMany = 'Picture';
+		public $hasMany = array('Picture' => array(
+								'className' => 'Picture',
+								'dependent'=> true,));
 
 		//public $belongsTo = 'Category';
 		public $belongsTo = array(

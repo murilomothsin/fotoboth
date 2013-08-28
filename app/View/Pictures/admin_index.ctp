@@ -10,12 +10,13 @@
 	</ul>
 </div>
 <div class="large-12 columns">
-	<table cellpadding="0" cellspacing="0">
+	<table cellpadding="0" cellspacing="0" class="table table-hover">
 	   <tr>
 		  <th>Id</th>
 		  <th>Title</th>
 		  <th>Dir</th>
 		  <th>file_size</th>
+		  <th>album</th>
 		  <th>criado</th>
 		  <th>Actions</th>
 	   </tr>
@@ -36,6 +37,7 @@
 		  <td><?php echo $picture['Picture']['title']; ?></td>
 		  <td><?php echo $picture['Picture']['dir']; ?></td>
 		  <td><?php echo $picture['Picture']['file_size']; ?></td>
+		  <td><?php echo $picture['Album']['title']; ?></td>
 		  <td><?php echo $picture['Picture']['created']; ?></td>
 		  <td class='actions'>
 		  <?php

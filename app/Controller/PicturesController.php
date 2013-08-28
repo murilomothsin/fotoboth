@@ -23,7 +23,29 @@ class PicturesController extends AppController {
 			} else {
 				$this->Session->setFlash(__('Desculpe. O trabalho não pode ser salvo. Tente novamente.', true));
 			}
-		} //fecha if - formulario enviado
+		}
+	}
+
+	function admin_delete($id = null) {
+		$this->Picture->id = $id;
+		$options['conditions'] = array(
+		    'Picture.id' => $id
+		);
+
+		$pics = $this->Picture->find('all', $options);
+		pr($pics);
+		echo getcwd();
+		$targetPath = 'img/pictures/'.$pics[0]['Picture']['dir'];
+		if( is_dir($targetPath) ){
+			echo 'ok';
+		}
+		die();
+		if($this->Picture->delete()){
+			$this->Session->setFlash("Imagem foi excluido com sucesso!");
+			$this->redirect(array('action' => 'index'));
+		}
+		$this->Session->setFlash("Erro ao excluir imagem!");
+		$this->redirect(array('action' => 'index'));
 	}
 }
 

@@ -31,15 +31,27 @@ class PicturesController extends AppController {
 		$options['conditions'] = array(
 		    'Picture.id' => $id
 		);
+		$options['limit'] = '1';
 
 		$pics = $this->Picture->find('all', $options);
-		pr($pics);
-		echo getcwd();
-		$targetPath = 'img/pictures/'.$pics[0]['Picture']['dir'];
-		if( is_dir($targetPath) ){
-			echo 'ok';
+		foreach ($pics as $key => $value) {
+			//pr($value);
+			//echo getcwd();
+			$targetPath = 'img/pictures/'.$value['Picture']['dir'];
+			if( is_dir($targetPath) ){
+				$files1 = scandir($targetPath);
+				unset($files1[0]);
+				unset($files1[1]);
+				sort($files1);
+				//echo $targetPath.'/'.$value['Picture']['picture_path'];
+				unlink($targetPath.'/'.$value['Picture']['picture_path']);
+				$filesInDir = count($files1);
+				if($filesInDir == 0){
+					rmdir($targetPath);
+				}
+			}
 		}
-		die();
+		//die();
 		if($this->Picture->delete()){
 			$this->Session->setFlash("Imagem foi excluido com sucesso!");
 			$this->redirect(array('action' => 'index'));

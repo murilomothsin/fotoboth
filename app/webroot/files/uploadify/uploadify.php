@@ -23,6 +23,7 @@ if (!empty($_FILES)) {
 	$fileParts['extension'] = strtolower($fileParts['extension']);
 	if (in_array($fileParts['extension'],$fileTypes)) {
 		echo (move_uploaded_file($tempFile,$targetFile));
+		chmod($targetFile, 0777);
 	} else {
 		echo 'Invalid file type.';
 	}

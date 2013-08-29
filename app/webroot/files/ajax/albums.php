@@ -2,7 +2,7 @@
 
 //echo $_POST['id'].'\n';
 //echo getcwd();
-$targetPath =  realpath('../../img/pictures');
+$targetPath =  '../../img/pictures';
 $targetPath .= '/'.$_POST['id'];
 // echo chdir($targetPath);
 $files1 = scandir($targetPath);
@@ -10,7 +10,7 @@ $targetPath .= '/';
 unset($files1[0]);
 unset($files1[1]);
 sort($files1);
-
+print_r($files1);
 ?>
 
 <link type="text/css" href="css/pikachoose/bottom.css" rel="stylesheet" />

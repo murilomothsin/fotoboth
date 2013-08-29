@@ -80,6 +80,27 @@ class AlbumsController extends AppController {
 
 	function admin_delete($id = null) {
 		$this->Album->id = $id;
+
+		$options['conditions'] = array(
+		    'Picture.album_id' => $id
+		);
+		$options['limit'] = '1';
+
+		$pics = $this->Album->Picture->find('all', $options);
+
+		foreach ($pics as $key => $value) {
+			$targetPath = 'img/pictures/'.$value['Picture']['dir'];
+			if( is_dir($targetPath) ){
+				$files1 = scandir($targetPath);
+				unset($files1[0]);
+				unset($files1[1]);
+				sort($files1);
+				foreach ($files1 as $k => $v) {
+					echo unlink($targetPath.'/'.$v);
+				}
+				echo rmdir($targetPath);
+			}
+		}
 		
 		if($this->Album->delete()){
 			$this->Session->setFlash("Album foi excluido com sucesso!");

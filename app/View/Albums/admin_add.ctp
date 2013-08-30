@@ -69,6 +69,7 @@
 		<div id="contentPictures"  class="well well-small">
 			<input type="hidden" name="timeInit" value="<?php echo $timeInit; ?>">
 			<input height="30" width="110" type="file" name="fileInput" id="fileInput" align="center" />
+			<a href="javascript:$('#fileInput').uploadify('upload','*')">Upload Files</a>
 		</div>
 	</fieldset>
 	<?php 
@@ -95,7 +96,10 @@ echo $this->Html->script('uploadify/jquery.uploadify.min');
             'fileTypeExts': "*.*; *.jpg; *.png; *.gif",
             'fileTypeDesc': "Image files",
             'fileSizeLimit': '15MB',
-            'auto': true,
+            'auto': false,
+            'onCancel' : function(file) {
+            alert('The file ' + file.name + ' was cancelled.');
+        	},
             'onUploadSuccess': function(file, data, response) {
             	alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':\n' + data);
         	},

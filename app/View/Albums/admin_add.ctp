@@ -1,8 +1,5 @@
 <?php  $helpers = array('Link'); ?>
 <?php echo $this->Link->makeLink(); ?>
-<script type="text/javascript">
-
-</script>
 <div class="row">
 	<div class="span12">
 	<?php $timeInit = date('dmoHis'); ?>
@@ -83,26 +80,26 @@ echo $this->Html->script('uploadify/jquery.uploadify.min');
 ?>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        var path = "<?php echo $this->Html->url('/files/uploadify/', true) ?>";
-        $('#fileInput').uploadify({
-            'swf': path + 'uploader.swf',
-            'uploader': path + 'uploadify.php',
-            'folder': '/uploads',
-            'method': 'post',
-            'removeCompleted' : false,
-            'formData'      : {'User' : '<?php echo AuthComponent::user('username');?>', 'dataInicio' : '<?php echo $timeInit; ?>'},
-            'preventCaching': true,
-            'fileTypeExts': "*.*; *.jpg; *.png; *.gif",
-            'fileTypeDesc': "Image files",
-            'fileSizeLimit': '15MB',
-            'auto': false,
-            'onCancel' : function(file) {
-            alert('The file ' + file.name + ' was cancelled.');
-        	},
-            'onUploadSuccess': function(file, data, response) {
-            	alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':\n' + data);
-        	},
-        });
-    });
+	$(document).ready(function(){
+		var path = "<?php echo $this->Html->url('/files/uploadify/', true) ?>";
+		$('#fileInput').uploadify({
+			'swf': path + 'uploader.swf',
+			'uploader': path + 'uploadify.php',
+			'folder': '/uploads',
+			'method': 'post',
+			'removeCompleted' : false,
+			'formData'      : {'User' : '<?php echo AuthComponent::user('username');?>', 'dataInicio' : '<?php echo $timeInit; ?>'},
+			'preventCaching': true,
+			'fileTypeExts': "*.*; *.jpg; *.png; *.gif",
+			'fileTypeDesc': "Image files",
+			'fileSizeLimit': '15MB',
+			'auto': false,
+			'onCancel' : function(file) {
+				alert('The file ' + file.name + ' was cancelled.');
+			},
+			'onUploadSuccess': function(file, data, response) {
+				alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':\n' + data);
+			}
+		});
+	});
 </script>

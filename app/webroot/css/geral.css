@@ -1,50 +1,64 @@
+#header .columns ul li a {
+	color: #000;
+	text-align: center;
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.date div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo {
+	padding-top: 5px;
+}
+.menu {
+	color: #000;
+	font-size: 14px;
+}
+.menu:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.PreviewImg {
+	float: right;
+	width: 150px;
+	border: 1px solid #CCC;
+}
+
+.InputDate select {
+	width: 30%;
+	float: left;
+}
+#myCarousel {
+	width: 84%;
+}
+.loja {
+	width: 69% !important;
+}
+.carousel-control {
+	top: 30%;
+	border-radius: 0px;
+	height: 200px;
+	vertical-align: middle;
+	opacity: 0.1;
+	display: table;
+}
+.carousel-control:hover {
+	opacity: 0.5;
+}
+.control1 {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+
 /* Large desktop */
 @media (min-width: 1200px) {
-	#header .columns ul li a {
-		color: #000;
-		text-align: center;
-		margin-top: 30px;
-		display: inline-block;
-		font-size: 18px;
-	}
-
-	.date div {
-		display: inline-block;
-		vertical-align: middle;
-	}
-
-	.PreviewImg {
-		float: right;
-		width: 150px;
-		border: 1px solid #CCC;
-	}
-
-	.InputDate select {
-		width: 30%;
-		float: left;
-	}
-	#myCarousel {
-		width: 84%;
-	}
-	.loja {
-		width: 69% !important;
-	}
-	.carousel-control {
-		top: 30%;
-		border-radius: 0px;
-		height: 200px;
-		vertical-align: middle;
-		opacity: 0.1;
-		display: table;
-	}
-	.carousel-control:hover {
-		opacity: 0.5;
-	}
-	.control1 {
-		display: table-cell;
-	    vertical-align: middle;
-	}
-}
+}	
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {

@@ -10,13 +10,15 @@
 	</ul>
 </div>
 <div class="large-12 columns">
-	<table cellpadding="0" cellspacing="0">
-	   <tr>
-		  <th>Id</th>
-		  <th>Categoria</th>
-		  <th>Descrição</th>
-		  <th>Ações</th>
-	   </tr>
+	<table cellpadding="0" cellspacing="0" class="table table-hover">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Categoria</th>
+				<th>Descrição</th>
+				<th>Ações</th>
+			</tr>
+		</thead>
 	<?php
 
 	$i = 0;
@@ -35,8 +37,8 @@
 		  <td><?php echo $category['Category']['description']; ?></td>
 		  <td class='actions'>
 		  <?php
-		  echo $this->Html->link('Editar', array('action' => 'edit', $category['Category']['id']));
-		  echo $this->Form->postLink('Deletar', array('action' => 'delete', $category['Category']['id']), array('confirm' => 'Você tem certeza que quer excluir esta categoria?'));
+		  echo $this->Html->link('<i class="icon-pencil"></i>', array('action' => 'edit', $category['Category']['id']), array('escape' => false, 'style' => 'padding: 5px'));
+		  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $category['Category']['id']), array('confirm' => 'Você tem certeza que quer excluir esta categoria?', 'escape' => false, 'style' => 'padding: 5px'));
 		  ?>
 		  </td>
 	   </tr>

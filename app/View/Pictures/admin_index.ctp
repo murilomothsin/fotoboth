@@ -11,15 +11,17 @@
 </div>
 <div class="large-12 columns">
 	<table cellpadding="0" cellspacing="0" class="table table-hover">
-	   <tr>
-		  <th>Id</th>
-		  <th>Title</th>
-		  <th>Dir</th>
-		  <th>file_size</th>
-		  <th>album</th>
-		  <th>criado</th>
-		  <th>Actions</th>
-	   </tr>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Title</th>
+				<th>Dir</th>
+				<th>file_size</th>
+				<th>album</th>
+				<th>criado</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
 	<?php
 
 	$i = 0;
@@ -41,8 +43,8 @@
 		  <td><?php echo $picture['Picture']['created']; ?></td>
 		  <td class='actions'>
 		  <?php
-		  echo $this->Html->link('Editar', array('action' => 'edit', $picture['Picture']['id']));
-		  echo $this->Form->postLink('Deletar', array('action' => 'delete', $picture['Picture']['id']), array('confirm' => 'Você tem certeza que quer excluir esta foto?'));
+		  echo $this->Html->link('<i class="icon-pencil"></i>', array('action' => 'edit', $picture['Picture']['id']), array('escape' => false, 'style' => 'padding: 5px'));
+		  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $picture['Picture']['id']), array('confirm' => 'Você tem certeza que quer excluir esta foto?', 'escape' => false, 'style' => 'padding: 5px'));
 		  ?>
 		  </td>
 	   </tr>

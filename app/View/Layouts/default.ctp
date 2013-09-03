@@ -1,5 +1,4 @@
 <?php
-
 $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 ?>
 <!DOCTYPE html>
@@ -34,30 +33,30 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 			<div class="row">
 				<div class="span4">
 					<?php 
-					echo $this->Html->link($this->Html->image("logo.png"), '/', array('escape' => false, 'class' => '.hidden-phone'));
+					echo $this->Html->link($this->Html->image("logo.png", array('class' => 'logo')), '/', array('escape' => false));
 					?></div>
 				<div class="span8">
 					<ul class="inline nav-pills pull-right" style="margin-top: 55px;">
 							<li>
-								<?php echo $this->Html->link('Home', '/home'); ?>
+								<?php echo $this->Html->link('Home', '/home', array('class' => 'menu')); ?>
 							</li>
 							<li>
-								<?php echo $this->Html->link('Loja', '/loja'); ?>
+								<?php echo $this->Html->link('Loja', '/loja', array('class' => 'menu')); ?>
 							</li>
 							<li>
-								<?php echo $this->Html->link('Book', '/book'); ?>
+								<?php echo $this->Html->link('Book', '/book', array('class' => 'menu')); ?>
 							</li>
 							<li>
-								<?php echo $this->Html->link('Eventos', '/eventos'); ?>
+								<?php echo $this->Html->link('Eventos', '/eventos', array('class' => 'menu')); ?>
 							</li>
 							<li>
-								<?php echo $this->Html->link('Externas', '/externas'); ?>
+								<?php echo $this->Html->link('Externas', '/externas', array('class' => 'menu')); ?>
 							</li>
 							<li>
-								<?php echo $this->Html->link('Videos', '/videos'); ?>
+								<?php echo $this->Html->link('Videos', '/videos', array('class' => 'menu')); ?>
 							</li>
 							<li>
-								<?php echo $this->Html->link('Contato', '/contato'); ?>
+								<?php echo $this->Html->link('Contato', '/contato', array('class' => 'menu')); ?>
 							</li>
 					</ul>
 				</div>

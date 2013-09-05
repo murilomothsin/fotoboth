@@ -8,20 +8,6 @@ class AlbumsController extends AppController {
 
 	var $components = array('Upload');
 
-	// public function isAuthorized($user) {
-	// 	if (!parent::isAuthorized($user)) {
-	// 		if ($this->action === 'add') {
-	// 			// All registered users can add posts
-	// 			return true;
-	// 		}
-	// 		if (in_array($this->action, array('edit', 'delete'))) {
-	// 			$postId = $this->request->params['pass'][0];
-	// 			return $this->Post->isOwnedBy($postId, $user['id']);
-	// 		}
-	// 	}
-	// 	return false;
-	// }
-
 	public function admin_index() {
 		$this->set('albums', $this->Album->find('all'));
 	}
@@ -119,15 +105,11 @@ class AlbumsController extends AppController {
 		if ($this->request->is('get')) {
 			$this->request->data = $this->Album->read();
 		} else {
-			$this->Album->create();
-			foreach ($this->request->data['Picture'] as $key => $value) {
-				$this->request->data['Picture'][$key] = $this->Upload->uploadImg($this->request->data['Picture'][$key], $key);
-			}
-			if($this->Album->saveAll($this->request->data)){
-				$this->Session->setFlash("Album foi adicionado com sucesso!");
+			if($this->Album->save($this->request->data)){
+				$this->Session->setFlash("Album foi editado com sucesso!");
 				$this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash('Falha na inserção do album, tente outra vez.');
+				$this->Session->setFlash('Falha na edição do album, tente outra vez.');
 			}
 		}
 	}

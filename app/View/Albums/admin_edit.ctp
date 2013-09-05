@@ -54,21 +54,7 @@
 													'class' => 'formerror'
 													)
 									            ));
-			echo $this->Html->link('+', 'javascript:addImage();', array('class' => 'btn', 
-															'target' => '_blank',
-															'alt' => 'Adicionar mais imagems'));
-			echo '<div id="contentPictures"  class="hero-unit">';
-
-			echo $this->Form->input('Picture.0.title', array( 'class' => 'input-xlarge', 
-													'placeholder' => 'Título da foto',
-													'error' => array(
-													'wrap' => 'div', 
-													'class' => 'formerror'
-													)
-									            ));
-			echo $this->Form->input('Picture.0.Img', array('type'=>'file', 'onChange' => 'ImagePreview(0)'));
 		?>
-	</div>
 	</fieldset>
 	<?php 
 		echo $this->Form->end('ENVIAR', array( 'class' => 'btn btn-primary'));

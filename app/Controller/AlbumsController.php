@@ -31,10 +31,10 @@ class AlbumsController extends AppController {
 				unset($files1[0]);
 				unset($files1[1]);
 				sort($files1);
-				
+
 				mkdir($pathToCopy);
 				//$this->request->data['Picture'] = array();
-				
+
 				foreach ($files1 as $key => $value) {
 					rename($targetPath.'/'.$value, $pathToCopy.$value);
 					$file_size = filesize($pathToCopy.$value);
@@ -87,7 +87,7 @@ class AlbumsController extends AppController {
 				echo rmdir($targetPath);
 			}
 		}
-		
+
 		if($this->Album->delete()){
 			$this->Session->setFlash("Album foi excluido com sucesso!");
 			$this->redirect(array('action' => 'index'));

@@ -5,12 +5,8 @@
 	$imgPath = '';
 	$active = 'active';
 	foreach ($videos as $video) {
-		$listBook .= '<li class="'.$active.'"><a href="#tab'.$video['Video']['id'].'" data-toggle="tab"><center>'.$video['Video']['video'].'</center></a></li>';
-		$contentTab .= '<div class="tab-pane '.$active.'" id="tab'.$video['Video']['id'].'" style="height: 500px; width: 100%;">
-					<div class="thumbnail">
-					'.$video['Video']['embed'].'
-					</div>
-				   </div>';
+		$listBook .= '<li class="'.$active.'"><a href="#tab'.$video['Video']['id'].'" data-toggle="tab" id="'.$video['Video']['id'].'" onclick="clickOnTab(this);"><center>'.$video['Video']['video'].'</center></a></li>';
+		$contentTab .= '<div class="tab-pane '.$active.'" value="'.$video['Video']['id'].'" id="tab'.$video['Video']['id'].'" style="height: 500px; width: 100%;"></div>';
 		$active = '';
 	}
 ?>
@@ -41,3 +37,20 @@ body .modal {
   </div>
 </div>
 
+<script type="text/javascript">
+	var contents = new Array();
+	<?php
+	foreach ($videos as $video) {
+		echo 'contents['.$video['Video']['id'].'] = "<div class=\"tab-pane '.$active.'\" id=\"tab'.$video['Video']['id'].'\" style=\"height: 500px; width: 100%;\">
+					<div class=\"thumbnail\">
+					'.addslashes($video['Video']['embed']).'
+					</div>
+				   </div>";';
+	}
+	?>
+	function clickOnTab(component) {
+		var target = getElementById('tab'+component);
+		alert(target.value);
+
+	}
+</script>

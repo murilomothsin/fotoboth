@@ -9336,3 +9336,22 @@ Stack Trace:
 #3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-09-03 11:45:41 Error: [MissingControllerException] Controller class VideosController could not be found.
+Exception Attributes: array (
+  'class' => 'VideosController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/admin/videos
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-03 12:33:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 38]
+2013-09-03 12:33:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /fotoboth/videos
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/fotobo...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/fotobo...', 38, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/fotobo...', 38, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -2,11 +2,11 @@
 	App::uses('AppHelper', 'View/Helper');
 
 	class LinkHelper extends AppHelper {
-		
+
 		public $helpers = array('Html', 'Form');
-		
+
 		public function makeLink() {
-		
+
 		$link = '<hr>
 			<div>
 				<ul class="nav nav-pills">
@@ -22,6 +22,13 @@
 						<ul class="dropdown-menu">
 							<li>'.$this->Html->link('Lista', array('controller' => 'users', 'action' => 'index')).'</li>
 							<li>'.$this->Html->link('Adicionar', array('controller' => 'users', 'action' => 'add')).'</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Videos<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li>'.$this->Html->link('Lista', array('controller' => 'videos', 'action' => 'index')).'</li>
+							<li>'.$this->Html->link('Adicionar', array('controller' => 'videos', 'action' => 'add')).'</li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -59,7 +66,7 @@
 												'label' => 'Grupo',
 												'div' => array('class' => 'control-group')
 							)).
-					   		$this->Form->end('Salvar', array('type' => 'submit', 
+					   		$this->Form->end('Salvar', array('type' => 'submit',
 																'class' => 'btn btn-primary',
 																'div' => array('class' => 'control-group'))).
 						"</fieldset>";

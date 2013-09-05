@@ -6,7 +6,7 @@ class WelcomesController extends AppController {
 
 	var $helpers = array('Html', 'Form');
 
-	public $uses = 'Album';
+	public $uses = array('Album', 'Video');
 
 	public function beforeFilter() {
 		parent::beforeFilter();
@@ -23,7 +23,7 @@ class WelcomesController extends AppController {
 
 	public function book() {
 		$this->set('albums', $this->Album->find('all', array(
-        'conditions' => array('category_id' => '1'))));
+		'conditions' => array('category_id' => '1'))));
 	}
 
 	public function eventos() {
@@ -35,7 +35,7 @@ class WelcomesController extends AppController {
 	}
 
 	public function videos() {
-		$this->set('nomes', 'murilo');
+		$this->set('videos', $this->Video->find('all'));
 	}
 
 	public function contato() {

@@ -40,6 +40,7 @@ body .modal {
 <script type="text/javascript">
 	var contents = new Array();
 	<?php
+	/*
 	foreach ($videos as $video) {
 		echo 'contents['.$video['Video']['id'].'] = "<div class=\"tab-pane '.$active.'\" id=\"tab'.$video['Video']['id'].'\" style=\"height: 500px; width: 100%;\">
 					<div class=\"thumbnail\">
@@ -47,10 +48,11 @@ body .modal {
 					</div>
 				   </div>";';
 	}
+	*/
 	?>
 	function clickOnTab(component) {
-		var target = getElementById('tab'+component);
-		alert(target.value);
+		//var target = getElementById('tab'+component);
+		alert(component.value);
 
 	}
 </script>

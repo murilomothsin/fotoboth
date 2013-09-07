@@ -52,6 +52,6 @@ body .modal {
     <div id="contentView" ></div>
   </div>
   <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true" id="CloseModal">Close</button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true" id="CloseModal" onclick="return $('#contentView').empty();">Close</button>
   </div>
 </div>

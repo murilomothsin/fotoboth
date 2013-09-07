@@ -10,6 +10,18 @@ $( "#CloseModal" ).click(function() {
 });
 
 
+
+
+function getAjax(id){
+	$.get("/fotoboth/welcomes/ajax/"+id, 
+			null, 
+			function(data) {
+				$("#contentView").html(data); 
+			} 
+		);
+}
+
+/*
 function getAjax(id){
 	div = '#contentView';
 	$.ajax({
@@ -29,4 +41,4 @@ function getAjax(id){
 			$(div).html('Não foi possível carregar!');
 		}
 	});
-}
+} */

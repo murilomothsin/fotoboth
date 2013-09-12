@@ -38,6 +38,13 @@
 							<li>'.$this->Html->link('Adicionar', array('controller' => 'categories', 'action' => 'add')).'</li>
 						</ul>
 					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Capas<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li>'.$this->Html->link('Lista', array('controller' => 'capas', 'action' => 'index')).'</li>
+							<li>'.$this->Html->link('Adicionar', array('controller' => 'capas', 'action' => 'add')).'</li>
+						</ul>
+					</li>
 					<li>'.$this->Html->link('Pictures', array('controller' => 'pictures', 'action' => 'index')).'</li>
 					<li>'.$this->Html->link('Adicionar', array('action' => 'add')).'</li>
 					<li style="float: right;">'.$this->Html->link('Sair', array('controller' => 'users', 'action' => 'logout')).'</li>

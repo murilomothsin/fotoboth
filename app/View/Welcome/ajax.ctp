@@ -1,49 +1,23 @@
 <?php
-//echo $path;
-//echo '<pre>';
-//print_r($imageList);
-//echo '</pre>';
+
+echo $this->Html->css('fotorama');
+echo $this->Html->script('vendor/jquery');
+echo $this->Html->script('fotorama');
 
 ?>
-
-
-<link type="text/css" href="css/pikachoose/bottom.css" rel="stylesheet" />
-<!-- <script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script> -->
-<script type="text/javascript" src="js/pikachoose/jquery.jcarousel.min.js"></script>
-<script type="text/javascript" src="js/pikachoose/jquery.pikachoose.min.js"></script>
-<script language="javascript">
-	$(document).ready(
-		function (){
-			$("#pikame").PikaChoose({carousel:true, 
-				text: {previous: "", next: "" }, 
-				hoverPause:true, 
-				transition:[0], 
-				showCaption:false,
-				itemFallbackDimension: 300
-			});
-		});
-</script>
-
-<style type="text/css">
-.pikachoose {
-	width: 100%;
-}
-.pikachoose .pika-stage {
-	width: 90%;
-}
-.pikachoose .pika-stage img {
-
-}
-
-</style>
 <center>
-<div class="pikachoose">
-	<ul id="pikame" class="jcarousel-skin-pika">
-		<?php
+	<div class="fotorama" 
+		data-nav="thumbs" 
+		data-width="600" 
+		data-ratio="600/360" 
+		data-max-width="100%"
+		data-autoplay="true"
+		data-stopautoplayontouch="false"
+		data-allowfullscreen="true">
+		<?php 
 			foreach ($imageList as $key => $value) {
-				echo '<li><img src="'.$path.$value.'" /></li>';
+				echo $this->Html->image($targetPath.$value);
 			}
 		?>
-	</ul>
-</div>
-<center>
+	</div>
+</center>

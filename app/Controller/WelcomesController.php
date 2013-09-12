@@ -10,7 +10,7 @@ class WelcomesController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('loja', 'book', 'eventos', 'externas', 'videos', 'contato');
+		$this->Auth->allow('loja', 'book', 'eventos', 'externas', 'videos', 'contato', 'ajax');
 	}
 
 	public function index() {
@@ -30,22 +30,25 @@ class WelcomesController extends AppController {
 		if(strlen($id) == 13)
 			$id = '0'.$id;
 		$targetPath =  'img/pictures/'.$id;
+		$targetView = 'pictures/'.$id.'/';
 		$files1 = scandir($targetPath);
 		$targetPath .= '/';
 		unset($files1[0]);
 		unset($files1[1]);
 		sort($files1);
 		$this->layout = "ajax";
-		$this->set("path",$targetPath);
+		$this->set("targetPath",$targetView);
 		$this->set("imageList",$files1);
 	}
 
 	public function eventos() {
-		$this->set('nomes', 'murilo');
+		$this->set('albums', $this->Album->find('all', array(
+		'conditions' => array('category_id' => '2'))));
 	}
 
 	public function externas() {
-		$this->set('nomes', 'murilo');
+		$this->set('albums', $this->Album->find('all', array(
+		'conditions' => array('category_id' => '3'))));
 	}
 
 	public function videos() {

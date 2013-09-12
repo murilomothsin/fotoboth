@@ -159,12 +159,14 @@ class UploadComponent extends Component{
 		return $file_tmp.".".$ext;
 	}
 
-	function uploadImg($PostPicture) {
+	function uploadImg($PostPicture, $path = null) {
 		if(empty($PostPicture['Img'])) {
 			//$this->Session->setFlash(__('É preciso enviar uma imagem',true));
 			return false;
 		}
-		$path = "img/pictures";
+		if($path == null)
+			$path = "img/pictures";
+		
 		$this->setPath($path);
 		$this->addAllowedExt($PostPicture['Img']['type']);
 		$novo_picture = $this->copyUploadedFile($PostPicture['Img'], '');

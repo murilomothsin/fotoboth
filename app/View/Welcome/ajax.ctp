@@ -16,7 +16,9 @@ echo $this->Html->script('fotorama');
 		data-allowfullscreen="true">
 		<?php 
 			foreach ($imageList as $key => $value) {
-				echo $this->Html->image($targetPath.$value);
+				//echo $this->Html->image($targetPath.$value);
+				echo '<a href="img/'.$targetPath.$value.'"></a>';
+				//echo $this->Html->link('', $targetPath.$value);
 			}
 		?>
 	</div>

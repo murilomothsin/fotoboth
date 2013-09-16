@@ -2,7 +2,7 @@
 <?php echo $this->Link->makeLink(); ?>
 <div class="row">
 	<div class="large-12 columns">
-		<h3>Fotos</h3>
+		<h3>Capas</h3>
 	</div>
 <div>
 	<ul>
@@ -43,10 +43,7 @@
 		  <td><?php echo $picture['Picture']['created']; ?></td>
 		  <td class='actions'>
 		  <?php
-		  $icon = 'icon-star-empty';
-		  if($picture['Picture']['capa'])
-		  	$icon = 'icon-star';
-		  echo $this->Html->link('<i class="'.$icon.'"></i>', array('action' => 'NaCapa', $picture['Picture']['id']), array('escape' => false, 'style' => 'padding: 5px'));
+		  echo $this->Html->link('<i class="icon-pencil"></i>', array('action' => 'edit', $picture['Picture']['id']), array('escape' => false, 'style' => 'padding: 5px'));
 		  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $picture['Picture']['id']), array('confirm' => 'Você tem certeza que quer excluir esta foto?', 'escape' => false, 'style' => 'padding: 5px'));
 		  ?>
 		  </td>

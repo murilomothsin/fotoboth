@@ -1885,3 +1885,807 @@ Request URL: /fotoboth/js/fotorama.js?_=1379008445434
 Stack Trace:
 #0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-09-13 19:45:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-13 19:45:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-13 20:18:05 Error: [MissingActionException] Action PicturesController::admin_edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'PicturesController',
+  'action' => 'admin_edit',
+)
+Request URL: /fotoboth/admin/pictures/edit/48
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PicturesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-13 20:38:14 Error: [MissingActionException] Action PicturesController::admin_ColocarNaCapa() could not be found.
+Exception Attributes: array (
+  'controller' => 'PicturesController',
+  'action' => 'admin_ColocarNaCapa',
+)
+Request URL: /fotoboth/admin/pictures/ColocarNaCapa/80
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PicturesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-13 20:46:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/25082013192903/Screenshot%20from%202013-06-21%2022:36:17.png
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-15 20:36:50 Error: Fatal Error (1): Class 'CakeEmail' not found in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 60]
+2013-09-15 20:36:50 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /fotoboth/contato
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-15 20:37:08 Error: Fatal Error (1): Class 'CakeEmail' not found in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 60]
+2013-09-15 20:37:08 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /fotoboth/contato
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-15 20:37:10 Error: Fatal Error (1): Class 'CakeEmail' not found in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 60]
+2013-09-15 20:37:10 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /fotoboth/contato
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', '/var/www/fotobo...', 60, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-15 20:38:30 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 9]
+2013-09-15 20:38:30 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /fotoboth/contato
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 9, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 9, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-15 20:39:47 Error: [SocketException] Invalid email: "fotoboth@localhost"
+Request URL: /fotoboth/contato
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Network/Email/CakeEmail.php(570): CakeEmail->_setEmail('_from', 'fotoboth@localh...', NULL)
+#1 /var/www/fotoboth/lib/Cake/Network/Email/CakeEmail.php(356): CakeEmail->_setEmailSingle('_from', 'fotoboth@localh...', NULL, 'From requires o...')
+#2 /var/www/fotoboth/lib/Cake/Network/Email/CakeEmail.php(1158): CakeEmail->from('fotoboth@localh...')
+#3 /var/www/fotoboth/lib/Cake/Network/Email/CakeEmail.php(1050): CakeEmail->_applyConfig('default')
+#4 /var/www/fotoboth/app/Controller/WelcomesController.php(63): CakeEmail->config('default')
+#5 [internal function]: WelcomesController->contato()
+#6 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(WelcomesController), Array)
+#7 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-09-15 20:40:19 Error: [SocketException] Could not send email.
+Request URL: /fotoboth/contato
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Network/Email/MailTransport.php(47): MailTransport->_mail('murilo.mothsin@...', 'About', 'My message??', 'From: My Site <...', NULL)
+#1 /var/www/fotoboth/lib/Cake/Network/Email/CakeEmail.php(1077): MailTransport->send(Object(CakeEmail))
+#2 /var/www/fotoboth/app/Controller/WelcomesController.php(67): CakeEmail->send('My message')
+#3 [internal function]: WelcomesController->contato()
+#4 /var/www/fotoboth/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(WelcomesController), Array)
+#5 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-09-15 21:27:22 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/var/www/fotoboth/app/View/Welcome/contato.ctp, line 7]
+2013-09-15 21:27:22 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /fotoboth/contato?nome=1233
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 7, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-15 22:14:25 Error: Fatal Error (4): syntax error, unexpected ''rows'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/fotoboth/app/View/Welcome/contato.ctp, line 25]
+2013-09-15 22:14:25 Error: [FatalErrorException] syntax error, unexpected ''rows'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fotoboth/contato?nome=1233
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 25, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 25, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-15 22:26:46 Error: Fatal Error (4): syntax error, unexpected ''rows'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/fotoboth/app/View/Welcome/contato.ctp, line 33]
+2013-09-15 22:26:46 Error: [FatalErrorException] syntax error, unexpected ''rows'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /fotoboth/contato?nome=1233
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 33, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 33, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-15 23:05:02 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/var/www/fotoboth/app/Controller/WelcomesController.php, line 67]
+2013-09-15 23:05:02 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /fotoboth/contato
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 67, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 67, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/001.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/002.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/005.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/006.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/004.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/007.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/008.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/009.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/010.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/011.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/004.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/012.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/013.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:20:58 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/014.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:21:01 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/009.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:21:09 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/010.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:21:14 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/011.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:21:19 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/012.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:21:25 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/014.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/001.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/002.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/005.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/006.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/004.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/007.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/008.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/010.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/009.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/011.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/012.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/004.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/013.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:22:59 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/014.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:23:05 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/004.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:23:05 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/008.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:23:05 Error: [MissingActionException] Action WelcomeController::pictures() could not be found.
+Exception Attributes: array (
+  'controller' => 'WelcomeController',
+  'action' => 'pictures',
+)
+Request URL: /fotoboth/welcomes/pictures/12092013092419/002.jpg
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WelcomesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-16 00:28:57 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/fotoboth/app/View/Welcome/ajax.ctp, line 22]
+2013-09-16 00:28:57 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /fotoboth/welcomes/ajax/12092013092419
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 22, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 22, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 00:30:05 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/fotoboth/app/View/Welcome/ajax.ctp, line 22]
+2013-09-16 00:30:05 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /fotoboth/welcomes/ajax/12092013092419
+Stack Trace:
+#0 /var/www/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/fotobo...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/fotobo...', 22, Array)
+#2 /var/www/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/fotobo...', 22, Array)
+#3 /var/www/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/001.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/002.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/005.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/006.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/004.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/008.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/007.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/009.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/010.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/011.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/012.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/004.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:29 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/013.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:30 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/014.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:34 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/006.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:35 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/010.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:52 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/011.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 00:30:58 Error: [MissingControllerException] Controller class FotobothController could not be found.
+Exception Attributes: array (
+  'class' => 'FotobothController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/fotoboth/img/pictures/12092013092419/012.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 08:44:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

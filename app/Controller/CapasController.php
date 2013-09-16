@@ -1,38 +1,29 @@
 <?php
 
-class PicturesController extends AppController {
+class CapasController extends AppController {
 
-	var $name = 'Pictures';
+	var $name = 'Capa';
 
 	var $helpers = array('Html', 'Form');
 
-	var $components = array('Upload');
-	
+	public $uses = array('Album', 'Video', 'Picture');
 
 	public function admin_index() {
-		$this->set('pictures', $this->Picture->find('all'));
+		$this->set('pictures', $this->Picture->find('all', array(
+		'conditions' => array('capa' => '1'))));
 	}
 
-
-	function admin_add() {
+	public function admin_add() {
 		if (!empty($this->request->data)) {
-			$this->request->data['Picture'] = $this->Upload->uploadImg($this->request->data['Picture']);
-			if ($this->Picture->save($this->request->data)) { //salva o trabalho
+			$this->request->data['Picture'] = $this->Upload->uploadImg($this->request->data['Picture'], 'img/capa');
+			$this->request->data['Picture']['capa'] = 1;
+			if ($this->Picture->save($this->request->data)) {
 				$this->Session->setFlash(__('Arquivo enviado com sucesso.', true));
 				$this->redirect(array('action'=>'index'));
 			} else {
 				$this->Session->setFlash(__('Desculpe. O trabalho não pode ser salvo. Tente novamente.', true));
 			}
 		}
-	}
-
-	public function admin_NaCapa($id = null) {
-		$this->Picture->id = $id;
-		$this->request->data = $this->Picture->read(null, $id);
-		$this->request->data['Picture']['capa'] = !$this->request->data['Picture']['capa'];
-		$this->Picture->save($this->request->data);
-		$this->redirect(array('action'=>'index'));
-
 	}
 
 	function admin_delete($id = null) {
@@ -44,8 +35,6 @@ class PicturesController extends AppController {
 
 		$pics = $this->Picture->find('all', $options);
 		foreach ($pics as $key => $value) {
-			//pr($value);
-			//echo getcwd();
 			if($value['Picture']['dir'] != 'img/capa')
 				$targetPath = 'img/pictures/'.$value['Picture']['dir'];
 			else
@@ -55,7 +44,6 @@ class PicturesController extends AppController {
 				unset($files1[0]);
 				unset($files1[1]);
 				sort($files1);
-				//echo $targetPath.'/'.$value['Picture']['picture_path'];
 				unlink($targetPath.'/'.$value['Picture']['picture_path']);
 				$filesInDir = count($files1);
 				if($filesInDir == 0){
@@ -63,7 +51,6 @@ class PicturesController extends AppController {
 				}
 			}
 		}
-		//die();
 		if($this->Picture->delete()){
 			$this->Session->setFlash("Imagem foi excluido com sucesso!");
 			$this->redirect(array('action' => 'index'));
@@ -71,7 +58,5 @@ class PicturesController extends AppController {
 		$this->Session->setFlash("Erro ao excluir imagem!");
 		$this->redirect(array('action' => 'index'));
 	}
+
 }
-
-
-?>

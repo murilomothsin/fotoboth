@@ -171,7 +171,7 @@ class UploadComponent extends Component{
 		$this->addAllowedExt($PostPicture['Img']['type']);
 		$novo_picture = $this->copyUploadedFile($PostPicture['Img'], '');
 		//grava dados do arquivo no banco de dados
-		$PostPicture['dir'] = 'files';
+		$PostPicture['dir'] = $path;
 		$PostPicture['picture_path'] = $novo_picture;
 		$PostPicture['file_size'] = number_format($PostPicture['Img']['size']/1024, 2) . " KB";
 		return $PostPicture;

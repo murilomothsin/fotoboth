@@ -78,7 +78,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 				<center>
 					<i class="icon-google-plus icon-2x" style="padding: 5px;"></i>
 					<i class="icon-facebook icon-2x" style="padding: 5px;"></i>
-					<i class="icon-google-plus icon-2x" style="padding: 5px;"></i>
+					<?php echo $this->Html->link($this->Html->image("iconmonstr-blogger-icon.svg", array('style' => 'height: 30px; margin-top: -10px; color: #FFF;')), '/', array('escape' => false, 'style' => 'height: 30px; margin-top: -10px; color: #FFF;')); ?>
 					<i class="icon-youtube icon-2x" style="padding: 5px;"></i>
 				</center>
 			</div>

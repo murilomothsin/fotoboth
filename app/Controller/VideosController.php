@@ -9,21 +9,23 @@ class VideosController extends AppController {
 		$this->set('videos', $this->Video->find('all'));
 	}
 
-	public function admin_edit( $id = null ){
+	public function admin_edit($id = null){
 		$this->Video->id = $id;
-		//pr($this->Video);
-		// if (!$this->Video->exists()) {
-		// 	$this->Session->setFlash(__('Video inválido.'));
-		// 	$this->redirect(array('action' => 'index'));
-		// }
+		
+		if (!$this->Video->exists()) {
+			$this->Session->setFlash(__('Video inválido.'));
+			$this->redirect(array('action' => 'index'));
+		}
 
-		if ($this->request->is('post')) {
+		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Video->save($this->request->data)) {
 				$this->Session->setFlash(__('Video foi editado com sucesso.'));
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('Não foi possivel editar o video.'));
 			}
+		}else {
+			$this->request->data = $this->Video->read(null, $id);
 		}
 	}
 

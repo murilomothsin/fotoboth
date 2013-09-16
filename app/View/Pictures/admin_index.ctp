@@ -43,7 +43,10 @@
 		  <td><?php echo $picture['Picture']['created']; ?></td>
 		  <td class='actions'>
 		  <?php
-		  echo $this->Html->link('<i class="icon-pencil"></i>', array('action' => 'edit', $picture['Picture']['id']), array('escape' => false, 'style' => 'padding: 5px'));
+		  $icon = 'icon-star-empty';
+		  if($picture['Picture']['capa'])
+		  	$icon = 'icon-star';
+		  echo $this->Html->link('<i class="'.$icon.'"></i>', array('action' => 'NaCapa', $picture['Picture']['id']), array('escape' => false, 'style' => 'padding: 5px'));
 		  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $picture['Picture']['id']), array('confirm' => 'Você tem certeza que quer excluir esta foto?', 'escape' => false, 'style' => 'padding: 5px'));
 		  ?>
 		  </td>

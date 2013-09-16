@@ -3,7 +3,7 @@
 <div>
 	<?php echo $this->Form->create('Picture', array('type'=>'file'));?>  
 	<fieldset>
-	<legend>Enviar Trabalho</legend>
+	<legend>Imagem</legend>
 	<?php
 	echo $this->Form->input('title');
 	echo $this->Form->input('Img', array('type'=>'file'));

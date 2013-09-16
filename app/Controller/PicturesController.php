@@ -26,6 +26,15 @@ class PicturesController extends AppController {
 		}
 	}
 
+	public function admin_NaCapa($id = null) {
+		$this->Picture->id = $id;
+		$this->request->data = $this->Picture->read(null, $id);
+		$this->request->data['Picture']['capa'] = !$this->request->data['Picture']['capa'];
+		$this->Picture->save($this->request->data);
+		$this->redirect(array('action'=>'index'));
+
+	}
+
 	function admin_delete($id = null) {
 		$this->Picture->id = $id;
 		$options['conditions'] = array(
@@ -37,7 +46,10 @@ class PicturesController extends AppController {
 		foreach ($pics as $key => $value) {
 			//pr($value);
 			//echo getcwd();
-			$targetPath = 'img/pictures/'.$value['Picture']['dir'];
+			if($value['Picture']['dir'] != 'img/capa')
+				$targetPath = 'img/pictures/'.$value['Picture']['dir'];
+			else
+				$targetPath = $value['Picture']['dir'];
 			if( is_dir($targetPath) ){
 				$files1 = scandir($targetPath);
 				unset($files1[0]);

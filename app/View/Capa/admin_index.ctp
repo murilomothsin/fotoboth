@@ -2,7 +2,7 @@
 <?php echo $this->Link->makeLink(); ?>
 <div class="row">
 	<div class="large-12 columns">
-		<h3>Fotos</h3>
+		<h3>Capas</h3>
 	</div>
 <div>
 	<ul>

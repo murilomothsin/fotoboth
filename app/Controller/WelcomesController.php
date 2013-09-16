@@ -16,15 +16,18 @@ class WelcomesController extends AppController {
 	}
 
 	public function index() {
+		$this->set("title_for_layout","");
 		$this->set('images', $this->Picture->find('all', array(
 		'conditions' => array('capa' => '1'))));
 	}
 
 	public function loja() {
+		$this->set("title_for_layout","Loja");
 		$this->set('nomes', 'murilo');
 	}
 
 	public function book() {
+		$this->set("title_for_layout","Book");
 		$this->set('albums', $this->Album->find('all', array(
 		'conditions' => array('category_id' => '1'))));
 	}
@@ -45,20 +48,24 @@ class WelcomesController extends AppController {
 	}
 
 	public function eventos() {
+		$this->set("title_for_layout","Eventos");
 		$this->set('albums', $this->Album->find('all', array(
 		'conditions' => array('category_id' => '2'))));
 	}
 
 	public function externas() {
+		$this->set("title_for_layout","Externas");
 		$this->set('albums', $this->Album->find('all', array(
 		'conditions' => array('category_id' => '3'))));
 	}
 
 	public function videos() {
+		$this->set("title_for_layout","Videos");
 		$this->set('videos', $this->Video->find('all'));
 	}
 
 	public function contato() {
+		$this->set("title_for_layout","Contato");
 		if ($this->request->data) {
 			$email = '<span style="border: 1px solid #CCC;width: 400px; padding: 10px; display: inline-block"><h3>Mensagem enviada pelo site</h3><hr>
 <b>Nome: </b>'.$this->request->data['Email']['nome'].'<br />

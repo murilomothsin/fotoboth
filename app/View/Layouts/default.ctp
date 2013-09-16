@@ -5,7 +5,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<?php echo $this->Html->charset(); 
+	<?php echo $this->Html->charset();
 	echo $this->Html->meta('description', $Description);
 
 	?>
@@ -26,13 +26,15 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
 	<div id="header" class="container">
 		<div class="masthead" style="margin-bottom: 40px; margin-top: 10px;">
 			<div class="row">
 				<div class="span4">
-					<?php 
+					<?php
 					echo $this->Html->link($this->Html->image("logo.png", array('class' => 'logo')), '/', array('escape' => false));
 					?></div>
 				<div class="span8">
@@ -71,8 +73,14 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 			</div>
 		</div>
 		<div id="footer" class="row">
-			<div class="span12">
-				<center><?php echo $Description ?></center>
+			<div class="span12" style="font-size: 12px;">
+				<center>Foto Both - Momentos Especiais Merecem Registros Especiais - fotoboth@fotoboth.com.br - (51) 35471169</center>
+				<center>
+					<i class="icon-google-plus icon-2x" style="padding: 5px;"></i>
+					<i class="icon-facebook icon-2x" style="padding: 5px;"></i>
+					<i class="icon-google-plus icon-2x" style="padding: 5px;"></i>
+					<i class="icon-youtube icon-2x" style="padding: 5px;"></i>
+				</center>
 			</div>
 		</div>
 	</div>
@@ -90,7 +98,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 	echo $this->Html->script('uploadify/jquery.uploadify.min');
 	echo $this->Html->script('geral');
 	echo $this->Html->script('Albums');
-	
-?>	
+
+?>
 
 </html>

@@ -19,15 +19,17 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		echo $this->Html->css('bootstrap/bootstrap');
 		echo $this->Html->css('bootstrap/bootstrap-responsive');
 		echo $this->Html->css('uploadify/uploadify');
-
+		?>
+			<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<?php
 		echo $this->Html->css('geral');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
-	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 </head>
 <body>
 	<div id="header" class="container">
@@ -74,12 +76,19 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		</div>
 		<div id="footer" class="row">
 			<div class="span12" style="font-size: 12px;">
-				<center>Foto Both - Momentos Especiais Merecem Registros Especiais - fotoboth@fotoboth.com.br - (51) 35471169</center>
+				<center>Foto Both - Momentos Especiais Merecem Registros Especiais - fotoboth@fotoboth.com.br - (51) 3547-1169</center>
 				<center>
-					<i class="icon-google-plus icon-2x" style="padding: 5px;"></i>
-					<i class="icon-facebook icon-2x" style="padding: 5px;"></i>
-					<?php echo $this->Html->link($this->Html->image("iconmonstr-blogger-icon.svg", array('style' => 'height: 30px; margin-top: -10px; color: #FFF;')), '/', array('escape' => false, 'style' => 'height: 30px; margin-top: -10px; color: #FFF;')); ?>
-					<i class="icon-youtube icon-2x" style="padding: 5px;"></i>
+					<ul class="inline">
+						<li style="width: 35px;"><a href="#"><i class="icon-google-plus icon-2x googleplus" style="padding: 5px;"></i></a></li>
+						<li style="width: 35px;"><a href="#"><i class="icon-facebook icon-2x facebook" style="padding: 5px;"></i></a></li>
+						<li style="width: 35px;"><a href="#"><div class="blogger"></div></a></li>
+						<li style="width: 35px;"><a href="#"><i class="icon-youtube icon-2x youtube" style="padding: 5px;"></i></a></li>
+					</ul>
+					
+					
+					
+					<?php //echo $this->Html->link($this->Html->image("iconmonstr-blogger-icon.svg", array('style' => 'height: 30px; margin-top: -10px; color: #FFF;')), '/', array('escape' => false, 'style' => 'height: 30px; margin-top: -10px; color: #FFF;')); ?>
+					
 				</center>
 			</div>
 		</div>

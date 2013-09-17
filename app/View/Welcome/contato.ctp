@@ -28,15 +28,14 @@
 											'label' => array('text' => 'E-mail: ')));
 			echo $this->Form->input('endereco', array( 'placeholder' => 'Endereço',
 													'label' => array('text' => 'Endereço: ')));
-			$events = array('0' => 'Outro',
-							'1' => 'Aniversário',
-							'2' => 'Casamento',
-							'3' => 'Ensaio de Studio',
-							'4' => 'Ensaio Externo',
-							'5' => 'Book');
+			$events = array('outro' => 'Outro',
+							'duvida' => 'Dúvida',
+							'sugestao' => 'Sugestão',
+							'reclamacao' => 'Reclamação',
+							'orcamento' => 'Orçamento');
 			echo $this->Form->input('evento', array('options' => $events,
 													'default' => '0',
-													'label' => array('text' => 'Evento: ')));
+													'label' => array('text' => 'Assunto: ')));
 			echo $this->Form->input('Mensagem', array('div' => 'msg_area',
 														'type' => 'textarea',
 														'style' => 'width: 95%; height: 100%',
@@ -56,10 +55,10 @@
 <div class="span6">
 	<div class="hero-unit">
 	<h2>Endereço</h3>
-	<adress>Av. Borges de Medeiros - 1836 <br>
-		95690-000 Rolante, Brasil <br>
-
-	</adress>
+		<p><b>Endereço:</b> Av. Borges de Medeiros, Rolante - RS, 95690-000</p>
+<p><b>Telefone:</b> (51) 3547-1169   -   (51) 9905-6665</p>
+<p><b>Horário:</b> Segunda a Sexta 08:30–11:30, 13:30–19:00
+					<span style="margin-left: 75px;">Sábado 08:00–12:00</span></p>
 	</div
 </div>
 </div>

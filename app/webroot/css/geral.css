@@ -23,6 +23,20 @@
 	text-decoration: none;
 }
 
+.googleplus, .facebook, .youtube { color: #333333; margin-top: -5px;}
+.blogger {
+	background-image: url("../img/iconmonstr-blogger-icon.png");
+	background-repeat: no-repeat;
+	margin-bottom: -5px;
+	height: 28px;
+	width: 40px;
+}
+.blogger:hover { background-image: url("../img/iconmonstr-blogger-icon-color.png"); }
+.googleplus:hover { color: #DB4936; text-decoration: none; }
+.facebook:hover { color: #3B5998; text-decoration: none; }
+.youtube:hover { color: #CB322C; text-decoration: none; }
+
+
 .PreviewImg {
 	float: right;
 	width: 150px;

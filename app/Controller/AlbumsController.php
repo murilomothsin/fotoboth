@@ -18,14 +18,11 @@ class AlbumsController extends AppController {
 		$this->set(compact('categories'));
 
 		if($this->request->is('post')){
-			pr($this->request->data);
-			//die();
-			//vai para o diretorio TEMPORARIO
-			echo chdir('files/uploadify/temp');
+			chdir('files/uploadify/temp');
 
 			$targetPath = AuthComponent::user('username').$this->request->data['timeInit'];
-			$pathToCopy =  realpath('../../../img/pictures');
-			$pathToCopy .= '/'.$this->request->data['timeInit'].'/';
+			$pathToCopy = realpath('../../../img/pictures').'/'.$this->request->data['timeInit'].'/';
+			//$pathToCopy .= '/'.$this->request->data['timeInit'].'/';
 			if( is_dir($targetPath) ){
 				$files1 = scandir($targetPath);
 				unset($files1[0]);
@@ -33,25 +30,27 @@ class AlbumsController extends AppController {
 				sort($files1);
 
 				mkdir($pathToCopy);
-				//$this->request->data['Picture'] = array();
-
+				$i = 1;
 				foreach ($files1 as $key => $value) {
 					rename($targetPath.'/'.$value, $pathToCopy.$value);
 					$file_size = filesize($pathToCopy.$value);
-					$this->request->data['Picture'][$key]['picture_path'] = $value;
-					$this->request->data['Picture'][$key]['dir'] = $this->request->data['timeInit'];
-					$this->request->data['Picture'][$key]['file_size'] = number_format($file_size/1024, 2) . " KB";
+					$this->request->data['Picture'][$i]['picture_path'] = $value;
+					$this->request->data['Picture'][$i]['dir'] = $this->request->data['timeInit'];
+					$this->request->data['Picture'][$i]['file_size'] = number_format($file_size/1024, 2) . " KB";
+					$i++;
 				}
 				rmdir($targetPath);
 			}
 
 			if( !is_dir($pathToCopy) )
 				mkdir($pathToCopy);
-			rename($this->request->data['Picture']['0']['Img']['tmp_name'], $pathToCopy.$this->request->data['Picture']['0']['Img']['name']);
-			$this->request->data['Picture']['0']['picture_path'] = $this->request->data['Picture']['0']['Img']['name'];
-			$this->request->data['Picture']['0']['dir'] = $this->request->data['timeInit'];
-			$this->request->data['Picture']['0']['file_size'] = number_format($this->request->data['Picture']['0']['Img']['size']/1024, 2) . " KB";
-
+			if(isset($this->request->data['Picture']['0'])){
+				rename($this->request->data['Picture']['0']['Img']['tmp_name'], $pathToCopy.$this->request->data['Picture']['0']['Img']['name']);
+				chmod($pathToCopy.$this->request->data['Picture']['0']['Img']['name'], 0777);
+				$this->request->data['Picture']['0']['picture_path'] = $this->request->data['Picture']['0']['Img']['name'];
+				$this->request->data['Picture']['0']['dir'] = $this->request->data['timeInit'];
+				$this->request->data['Picture']['0']['file_size'] = number_format($this->request->data['Picture']['0']['Img']['size']/1024, 2) . " KB";
+			}
 
 			$this->Album->create();
 			$this->request->data['Album']['user_id'] = $this->Auth->user('id');
@@ -60,6 +59,7 @@ class AlbumsController extends AppController {
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash('Falha na inserção do album, tente outra vez.');
+				$this->redirect(array('action' => 'index'));
 			}
 		}
 	}
@@ -101,7 +101,6 @@ class AlbumsController extends AppController {
 		$categories = $this->Album->Category->find('list');
 		$this->set(compact('categories'));
 
-		//$pics = $this->Album->Picture->find('');
 		if ($this->request->is('get')) {
 			$this->request->data = $this->Album->read();
 		} else {
@@ -114,4 +113,5 @@ class AlbumsController extends AppController {
 		}
 	}
 }
+
 ?>

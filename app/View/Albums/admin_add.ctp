@@ -96,9 +96,6 @@ echo $this->Html->script('uploadify/jquery.uploadify.min');
 			'auto': false,
 			'onCancel' : function(file) {
 				alert('The file ' + file.name + ' was cancelled.');
-			},
-			'onUploadSuccess': function(file, data, response) {
-				alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':\n' + data);
 			}
 		});
 	});

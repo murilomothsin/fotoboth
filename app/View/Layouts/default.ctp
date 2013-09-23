@@ -80,15 +80,11 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 				<center>
 					<ul class="inline">
 						<li style="width: 35px;"><a href="#"><i class="icon-google-plus icon-2x googleplus" style="padding: 5px;"></i></a></li>
-						<li style="width: 35px;"><a href="#"><i class="icon-facebook icon-2x facebook" style="padding: 5px;"></i></a></li>
-						<li style="width: 35px;"><a href="#"><div class="blogger"></div></a></li>
-						<li style="width: 35px;"><a href="#"><i class="icon-youtube icon-2x youtube" style="padding: 5px;"></i></a></li>
+						<li style="width: 35px;"><a href="https://www.facebook.com/foto.both.1" target="_blank"><i class="icon-facebook icon-2x facebook" style="padding: 5px;"></i></a></li>
+						<li style="width: 35px;"><a href="http://fotoboth.blogspot.com.br/" target="_blank"><div class="blogger"></div></a></li>
+						<li style="width: 35px;"><a href="http://www.youtube.com/channel/UCobr8WoQU3C1LcXqI6bD55g" target="_blank"><i class="icon-youtube icon-2x youtube" style="padding: 5px;"></i></a></li>
 					</ul>
-					
-					
-					
-					<?php //echo $this->Html->link($this->Html->image("iconmonstr-blogger-icon.svg", array('style' => 'height: 30px; margin-top: -10px; color: #FFF;')), '/', array('escape' => false, 'style' => 'height: 30px; margin-top: -10px; color: #FFF;')); ?>
-					
+					<span class="desenvolvedor">Desenvolvido por Murilo Mothsin</span>
 				</center>
 			</div>
 		</div>

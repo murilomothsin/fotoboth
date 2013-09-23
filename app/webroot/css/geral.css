@@ -14,6 +14,13 @@
 .logo {
 	padding-top: 5px;
 }
+
+.desenvolvedor{
+	color: #C1C1C1;
+}
+.desenvolvedor:hover{
+	color: #333;
+}
 .menu {
 	color: #000;
 	font-size: 14px;
@@ -72,8 +79,8 @@
 
 /* Large desktop */
 @media (min-width: 1200px) {
-}	
- 
+}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	#header .columns ul li a {
@@ -113,7 +120,7 @@
 	    vertical-align: middle;
 	}
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	#header .columns ul li a {
@@ -158,7 +165,7 @@
 	    vertical-align: middle;
 	}
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#header .columns ul li a {

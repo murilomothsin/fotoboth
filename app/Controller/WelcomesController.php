@@ -72,14 +72,15 @@ class WelcomesController extends AppController {
 <b>Telefone: </b>'.$this->request->data['Email']['telefone'].'<br />
 <b>E-mail: </b>'.$this->request->data['Email']['email'].'<br />
 <b>Endereço: </b>'.$this->request->data['Email']['endereco'].'<br />
-<b>Evento: </b>'.$this->request->data['Email']['evento'].'<br />
+<b>Assunto: </b>'.$this->request->data['Email']['evento'].'<br />
 <b>Mensagem: </b><p>'.nl2br($this->request->data['Email']['Mensagem']).'</p><br />
 			';
 			$Email = new CakeEmail();
 			$Email->config('gmail');
 			$Email->from(array('me@example.com' => 'My Site'))
 				->emailFormat('html')
-				->to('murilo.mothsin@gmail.com')
+				->to('fotoboth@tca.com.br')
+				->cc('murilo.mothsin@gmail.com', 'vini.fotoboth@tca.com.br')
 				->subject('About')
 				->send($email);
 			$this->Session->setFlash(__('E-mail enviado com sucesso'));

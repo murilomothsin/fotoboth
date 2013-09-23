@@ -4,11 +4,6 @@
 	<div class="large-12 columns">
 		<h3>Fotos</h3>
 	</div>
-<div>
-	<ul>
-		<li><?php echo $this->Html->link('Adicionar', array('action' => 'add')); ?></li>
-	</ul>
-</div>
 <div class="large-12 columns">
 	<table cellpadding="0" cellspacing="0" class="table table-hover">
 		<thead>

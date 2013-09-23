@@ -45,9 +45,10 @@
 							<li>'.$this->Html->link('Adicionar', array('controller' => 'capas', 'action' => 'add')).'</li>
 						</ul>
 					</li>
-					<li>'.$this->Html->link('Pictures', array('controller' => 'pictures', 'action' => 'index')).'</li>
+					<li>'.$this->Html->link('Imagens', array('controller' => 'pictures', 'action' => 'index')).'</li>
 					<li>'.$this->Html->link('Adicionar', array('action' => 'add')).'</li>
 					<li style="float: right;">'.$this->Html->link('Sair', array('controller' => 'users', 'action' => 'logout')).'</li>
+					<li style="float: right;">'.$this->Html->link('Limpar', array('controller' => 'albums', 'action' => 'clearTemp')).'</li>
 				</ul>
 			</div>
 		<hr>';

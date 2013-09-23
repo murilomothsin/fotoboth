@@ -1,5 +1,5 @@
 <div style="min-height: 435px;" align="center">
-	<div id="myCarousel" class="carousel slide loja">
+	<div id="lojaCarousel" class="carousel slide loja">
 	  	<!-- Carousel items -->
 		<div class="carousel-inner" align="center">
 			<div class="active item"><img src="img/loja/001.jpg" alt=""></div>

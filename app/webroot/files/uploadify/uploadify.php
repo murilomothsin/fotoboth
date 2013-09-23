@@ -9,13 +9,15 @@ if (!empty($_FILES)) {
 
 	if( is_dir($targetPath) )
 		echo 'diretoiro ja existe!';
-	else
+	else{
 		echo mkdir($targetPath, 0777);
+		chmod($targetPath, 0777);
+	}
 
 	$tempFile = $_FILES['Filedata']['tmp_name'];
 	$targetFile = rtrim($targetPath,'/') . '/'.$_FILES['Filedata']['name'];
-	
-	
+
+
 
 	// Validate the file type
 	$fileTypes = array('jpg','jpeg','gif','png'); // File extensions

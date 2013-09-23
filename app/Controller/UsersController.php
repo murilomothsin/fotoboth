@@ -13,7 +13,7 @@
 
 		public function admin_login() {
 			if ($this->Auth->login()) {
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('controller' => 'Albums', 'action' => 'index'));
 			} else {
 				if($this->request->is('post'))
 					$this->Session->setFlash(__('Invalid username or password, try again'));

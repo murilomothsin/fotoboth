@@ -75,19 +75,19 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 			</div>
 		</div>
 		<div id="footer" class="row">
-			<div class="span12" style="font-size: 12px;">
-				<center>Foto Both - Momentos Especiais Merecem Registros Especiais - fotoboth@fotoboth.com.br - (51) 3547-1169</center>
-				<center>
-					<ul class="inline">
-						<li style="width: 35px;"><a href="#"><i class="icon-google-plus icon-2x googleplus" style="padding: 5px;"></i></a></li>
-						<li style="width: 35px;"><a href="https://www.facebook.com/foto.both.1" target="_blank"><i class="icon-facebook icon-2x facebook" style="padding: 5px;"></i></a></li>
-						<li style="width: 35px;"><a href="http://fotoboth.blogspot.com.br/" target="_blank"><div class="blogger"></div></a></li>
-						<li style="width: 35px;"><a href="http://www.youtube.com/channel/UCobr8WoQU3C1LcXqI6bD55g" target="_blank"><i class="icon-youtube icon-2x youtube" style="padding: 5px;"></i></a></li>
-					</ul>
-					<span class="desenvolvedor">Desenvolvido por Murilo Mothsin</span>
-				</center>
+			<div class="span8" style="font-size: 12px; padding: 10px;">
+				<span style=" float: right;">Foto Both - Momentos Especiais Merecem Registros Especiais - fotoboth@fotoboth.com.br - (51) 3547-1169</span>
+			</div>
+			<div class="span3">
+				<ul class="inline" style="float: right;">
+					<li style="width: 35px;"><a href="#"><i class="icon-google-plus icon-large googleplus" style="padding: 5px;"></i></a></li>
+					<li style="width: 35px;"><a href="https://www.facebook.com/foto.both.1" target="_blank"><i class="icon-facebook icon-large facebook" style="padding: 5px;"></i></a></li>
+					<li style="width: 35px;"><a href="http://fotoboth.blogspot.com.br/" target="_blank"><div class="blogger"></div></a></li>
+					<li style="width: 35px;"><a href="http://www.youtube.com/channel/UCobr8WoQU3C1LcXqI6bD55g" target="_blank"><i class="icon-youtube icon-large youtube" style="padding: 5px;"></i></a></li>
+				</ul>
 			</div>
 		</div>
+		<center><span class="desenvolvedor">Desenvolvido por Murilo Mothsin</span></center>
 	</div>
 	<!-- <?php echo $this->element('sql_dump'); ?> -->
 </body>

@@ -23,7 +23,6 @@ class WelcomesController extends AppController {
 
 	public function loja() {
 		$this->set("title_for_layout","Loja");
-		$this->set('nomes', 'murilo');
 	}
 
 	public function book() {

@@ -1,7 +1,10 @@
 !function ($) {
 	$(function(){
-		// carousel demo
 		$('#myCarousel').carousel()
+
+		$('#lojaCarousel').carousel({
+			interval: 10000
+		})
 	})
 }(window.jQuery)
 
@@ -13,10 +16,10 @@ $( "#CloseModal" ).click(function() {
 
 
 function getAjax(id){
-	$.get("/fotoboth/welcomes/ajax/"+id, 
-			null, 
+	$.get("/fotoboth/welcomes/ajax/"+id,
+			null,
 			function(data) {
-				$("#contentView").html(data); 
-			} 
+				$("#contentView").html(data);
+			}
 		);
 }

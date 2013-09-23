@@ -15,7 +15,7 @@
 #map-canvas {
 	margin: 0;
 	padding: 0;
-	height: 300px;
+	height: 250px;
 	width: 500px;
 	margin-left: -5px;
 }
@@ -28,14 +28,15 @@
 	function initialize() {
 		var mapOptions = {
 			zoom: 17,
-			center: new google.maps.LatLng(-29.6572523, -50.57801569999998),
+			center: new google.maps.LatLng(-29.653617, -50.577472),
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		map = new google.maps.Map(document.getElementById('map-canvas'),
 		mapOptions);
 		var endereco = 'Av. Borges de Medeiros,1836 , Rolante - RS';
+		var latlng = new google.maps.LatLng(-29.653617, -50.577472);
 		geocoder = new google.maps.Geocoder();
-		geocoder.geocode({'address':endereco}, function(results, status){
+		geocoder.geocode({'latLng':latlng}, function(results, status){
 			if( status = google.maps.GeocoderStatus.OK){
 				latlng = results[0].geometry.location;
 				markerInicio = new google.maps.Marker({position: latlng,map: map});
@@ -86,12 +87,12 @@
 </div>
 
 <div class="span6">
-	<div class="hero-unit">
-		<h2>Endereço</h2>
-		<p><b>Endereço:</b> Av. Borges de Medeiros, Rolante - RS, 95690-000</p>
-		<p><b>Telefone:</b> (51) 3547-1169   -   (51) 9905-6665</p>
-		<p><b>Horário:</b> Segunda a Sexta 08:30–11:30, 13:30–19:00
-		<span style="margin-left: 75px;">Sábado 08:00–12:00</span></p>
+	<div class="hero-unit" style="padding-top: 20px; height: 420px;">
+		<h3>Endereço</h3>
+		<p><b style="font-size: 16px">Endereço:</b><span style="font-size: 14px"> Av. Borges de Medeiros,1836 Rolante - RS, 95690-000</span></p>
+		<p><b style="font-size: 16px">Telefone:</b><span style="font-size: 14px"> (51) 3547-1169   -   (51) 9905-6665</span></p>
+		<p><b style="font-size: 16px">Horário:</b> <span style="font-size: 14px">Segunda a Sexta 08:30–11:45, 13:30–19:00</span>
+		<span style="margin-left: 75px; font-size: 14px;">Sábado 08:00–12:00</span></p>
 		<div id="map-canvas"></div>
 	</div>
 </div>

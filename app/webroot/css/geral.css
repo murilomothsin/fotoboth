@@ -16,6 +16,7 @@
 }
 
 .desenvolvedor{
+	font-size: 12px;
 	color: #C1C1C1;
 }
 .desenvolvedor:hover{
@@ -34,8 +35,8 @@
 .blogger {
 	background-image: url("../img/iconmonstr-blogger-icon.png");
 	background-repeat: no-repeat;
-	margin-bottom: -5px;
-	height: 28px;
+	margin-bottom: -10px;
+	height: 25px;
 	width: 40px;
 }
 .blogger:hover { background-image: url("../img/iconmonstr-blogger-icon-color.png"); }

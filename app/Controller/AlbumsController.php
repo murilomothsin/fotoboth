@@ -12,6 +12,38 @@ class AlbumsController extends AppController {
 		$this->set('albums', $this->Album->find('all'));
 	}
 
+	public function admin_clearTemp(){
+
+		echo getcwd();
+		$targetPath = 'files/uploadify/temp/';
+		pr($targetPath);
+		$files1 = scandir($targetPath);
+		unset($files1[0]);
+		unset($files1[1]);
+		sort($files1);
+		// echo '<pre>';
+		// print_r($files1);
+		// echo '</pre>';
+		$delete = false;
+		foreach ($files1 as $key => $value) {
+			$folders = scandir($targetPath.$value);
+			unset($folders[0]);
+			unset($folders[1]);
+			sort($folders);
+			foreach ($folders as $k => $v) {
+				unlink($targetPath.$value.'/'.$v);
+			}
+			$delete = rmdir($targetPath.$value);
+		}
+
+		if($delete)
+			$this->Session->setFlash('Arquivos temporarios excluidos com sucesso!');
+		else
+			$this->Session->setFlash('Falha ao excluir arquivos temporarios!');
+
+		$this->redirect(array('action' => 'index'));
+	}
+
 	public function admin_add(){
 
 		$categories = $this->Album->Category->find('list');
@@ -29,10 +61,11 @@ class AlbumsController extends AppController {
 				unset($files1[1]);
 				sort($files1);
 
-				mkdir($pathToCopy);
+				mkdir($pathToCopy, 0777);
 				$i = 1;
 				foreach ($files1 as $key => $value) {
 					rename($targetPath.'/'.$value, $pathToCopy.$value);
+					chmod($pathToCopy.$value, 0777);
 					$file_size = filesize($pathToCopy.$value);
 					$this->request->data['Picture'][$i]['picture_path'] = $value;
 					$this->request->data['Picture'][$i]['dir'] = $this->request->data['timeInit'];
@@ -43,7 +76,7 @@ class AlbumsController extends AppController {
 			}
 
 			if( !is_dir($pathToCopy) )
-				mkdir($pathToCopy);
+				mkdir($pathToCopy, 0777);
 			if(isset($this->request->data['Picture']['0'])){
 				rename($this->request->data['Picture']['0']['Img']['tmp_name'], $pathToCopy.$this->request->data['Picture']['0']['Img']['name']);
 				chmod($pathToCopy.$this->request->data['Picture']['0']['Img']['name'], 0777);

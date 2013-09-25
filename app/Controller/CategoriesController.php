@@ -10,10 +10,13 @@ class CategoriesController extends AppController {
 	}
 
 	public function admin_edit( $id = null ){
-
+		$this->Session->setFlash(__('Você não tem permissão para editar categorias.', true));
+		$this->redirect(array('action'=>'index'));
 	}
 
 	public function admin_add() {
+		$this->Session->setFlash(__('Você não tem permissão para adicionar categorias.', true));
+		$this->redirect(array('action'=>'index'));
 		if (!empty($this->request->data)) {
 			if ($this->Category->save($this->request->data)) { //salva o trabalho
 				$this->Session->setFlash(__('Categoria criada com sucesso.', true));
@@ -21,7 +24,7 @@ class CategoriesController extends AppController {
 			} else {
 				$this->Session->setFlash(__('Desculpe. O trabalho não pode ser salvo. Tente novamente.', true));
 			}
-		} //fecha if - formulario enviado
+		}
 	}
 }
 

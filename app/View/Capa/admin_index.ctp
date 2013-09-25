@@ -1,54 +1,52 @@
 <?php  $helpers = array('Link'); ?>
+
+<div class="row">
 <?php echo $this->Link->makeLink(); ?>
+	<div class="large-12 columns">
+		<legend><?php echo __('Capas'); ?></legend>
+	</div>
+</div>
 <div class="row">
 	<div class="large-12 columns">
-		<h3>Capas</h3>
+		<table class="table table-hover table-condensed table-bordered">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Titulo</th>
+					<th>Diretorio</th>
+					<th>Tamanho</th>
+					<th>Album</th>
+					<th>Criado</th>
+					<th>&nbsp;</th>
+				</tr>
+			</thead>
+		<?php
+		foreach ($pictures as $picture){
+		?>
+		   <tr>
+			  <td><?php echo $picture['Picture']['id']; ?></td>
+			  <td><?php echo $picture['Picture']['title']; ?></td>
+			  <td><?php echo $picture['Picture']['dir']; ?></td>
+			  <td><?php echo $picture['Picture']['file_size']; ?></td>
+			  <td><?php echo $picture['Album']['title']; ?></td>
+			  <td><?php echo $picture['Picture']['created']; ?></td>
+			  <td class='actions'>
+			  <?php
+			  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $picture['Picture']['id']), array('confirm' => 'Você tem certeza que quer excluir esta foto?', 'escape' => false, 'style' => 'padding: 5px'));
+			  ?>
+			  </td>
+		   </tr>
+		<?php } ?>
+		</table>
 	</div>
-<div>
-	<ul>
-		<li><?php echo $this->Html->link('Adicionar', array('action' => 'add')); ?></li>
-	</ul>
-</div>
-<div class="large-12 columns">
-	<table cellpadding="0" cellspacing="0" class="table table-hover">
-		<thead>
-			<tr>
-				<th>Id</th>
-				<th>Title</th>
-				<th>Dir</th>
-				<th>file_size</th>
-				<th>album</th>
-				<th>criado</th>
-				<th>Actions</th>
-			</tr>
-		</thead>
-	<?php
-
-	$i = 0;
-	foreach ($pictures as $picture)
-	{
-	   $class = null;
-	   if($i++ % 2 == 0)
-	   {
-		  $class = '';
-	   }
-
-	?>
-	   <tr <?php echo $class; ?>>
-		  <td><?php echo $picture['Picture']['id']; ?></td>
-		  <td><?php echo $picture['Picture']['title']; ?></td>
-		  <td><?php echo $picture['Picture']['dir']; ?></td>
-		  <td><?php echo $picture['Picture']['file_size']; ?></td>
-		  <td><?php echo $picture['Album']['title']; ?></td>
-		  <td><?php echo $picture['Picture']['created']; ?></td>
-		  <td class='actions'>
-		  <?php
-		  echo $this->Html->link('<i class="icon-pencil"></i>', array('action' => 'edit', $picture['Picture']['id']), array('escape' => false, 'style' => 'padding: 5px'));
-		  echo $this->Form->postLink('<i class="icon-trash"></i>', array('action' => 'delete', $picture['Picture']['id']), array('confirm' => 'Você tem certeza que quer excluir esta foto?', 'escape' => false, 'style' => 'padding: 5px'));
-		  ?>
-		  </td>
-	   </tr>
-	<?php } ?>
-	</table>
-</div>
+	<div class="pagination pagination-centered">
+		<?php
+			if($this->Paginator->hasPrev())
+				echo $this->Paginator->prev('<<', null, null, array('class' => 'desabilitado'));
+			if($this->Paginator->hasPage())
+				echo $this->Paginator->numbers();
+			if($this->Paginator->hasNext())
+				echo $this->Paginator->next('>>', null, null, array('class' => 'desabilitado'));
+		?>
+	</div>
 </div>

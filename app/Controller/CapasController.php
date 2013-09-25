@@ -6,11 +6,20 @@ class CapasController extends AppController {
 
 	var $helpers = array('Html', 'Form');
 
-	public $uses = array('Album', 'Video', 'Picture');
+	public $uses = array('Picture');
 
 	public function admin_index() {
-		$this->set('pictures', $this->Picture->find('all', array(
-		'conditions' => array('capa' => '1'))));
+		//$this->set('pictures', $this->Picture->find('all', array(
+		//'conditions' => array('capa' => '1'))));
+
+		$this->Picture->recursive = 0;
+		$options = array(
+			'conditions' => array('capa' => '1'),
+			'order' => array('Picture.id' => 'ASC'),
+			'limit' => 10
+		);
+		$this->paginate = $options;
+		$this->set('pictures', $this->paginate());
 	}
 
 	public function admin_add() {
@@ -19,10 +28,10 @@ class CapasController extends AppController {
 			$this->request->data['Picture']['capa'] = 1;
 			if ($this->Picture->save($this->request->data)) {
 				$this->Session->setFlash(__('Arquivo enviado com sucesso.', true));
-				$this->redirect(array('action'=>'index'));
 			} else {
 				$this->Session->setFlash(__('Desculpe. O trabalho não pode ser salvo. Tente novamente.', true));
 			}
+			$this->redirect(array('action'=>'index'));
 		}
 	}
 

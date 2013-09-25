@@ -1,34 +1,26 @@
-
 <?php  $helpers = array('Link'); ?>
-<?php echo $this->Link->makeLink(); ?><div class="row">
+
+<div class="row">
+<?php echo $this->Link->makeLink(); ?>
 	<div class="large-12 columns">
-		<h3>Categorias</h3>
+		<legend><?php echo __('Categorias'); ?></legend>
 	</div>
 <div>
 </div>
 <div class="large-12 columns">
-	<table cellpadding="0" cellspacing="0" class="table table-hover">
+	<table class="table table-hover table-condensed table-bordered">
 		<thead>
 			<tr>
-				<th>Id</th>
-				<th>Categoria</th>
-				<th>Descrição</th>
-				<th>Ações</th>
+				<th style="width: 3%;">Id</th>
+				<th style="width: 20%;">Categoria</th>
+				<th  style="width: 72%;">Descrição</th>
+				<th  style="width: 5%;">&nbsp;</th>
 			</tr>
 		</thead>
 	<?php
-
-	$i = 0;
-	foreach ($categories as $category)
-	{
-	   $class = null;
-	   if($i++ % 2 == 0)
-	   {
-		  $class = '';
-	   }
-
+	foreach ($categories as $category) {
 	?>
-	   <tr <?php echo $class; ?>>
+	   <tr>
 		  <td><?php echo $category['Category']['id']; ?></td>
 		  <td><?php echo $category['Category']['category']; ?></td>
 		  <td><?php echo $category['Category']['description']; ?></td>

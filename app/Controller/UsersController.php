@@ -16,7 +16,7 @@
 				$this->redirect(array('controller' => 'Albums', 'action' => 'index'));
 			} else {
 				if($this->request->is('post'))
-					$this->Session->setFlash(__('Invalid username or password, try again'));
+					$this->Session->setFlash(__('Usuário ou senha inválidos!'));
 			}
 		}
 
@@ -27,15 +27,12 @@
 		public function admin_index(){
 			//$this->set('users', $this->User->find('all'));
 			$this->User->recursive = 0;
+			$options = array(
+				'order' => array('User.id' => 'ASC'),
+				'limit' => 10
+			);
+			$this->paginate = $options;
 			$this->set('users', $this->paginate());
-		}
-
-		public function admin_view($id = null) {
-			$this->User->id = $id;
-			if (!$this->User->exists()) {
-				throw new NotFoundException(__('Invalid user'));
-			}
-			$this->set('user', $this->User->read(null, $id));
 		}
 
 		public function admin_add(){
@@ -43,10 +40,10 @@
 				$this->User->create();
 				if($this->User->save($this->request->data)){
 					$this->Session->setFlash("Usuário foi adicionado com sucesso!");
-					$this->redirect(array('action' => 'index'));
 				} else {
 					$this->Session->setFlash('Falha na inserção do usuário, tente outra vez.');
 				}
+				$this->redirect(array('action' => 'index'));
 			}
 		}
 
@@ -58,10 +55,10 @@
 			if ($this->request->is('post') || $this->request->is('put')) {
 				if ($this->User->save($this->request->data)) {
 					$this->Session->setFlash(__('Usuário foi editado com sucesso.'));
-					$this->redirect(array('action' => 'index'));
 				} else {
 					$this->Session->setFlash(__('Não foi possivel editar o usuário.'));
 				}
+				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->request->data = $this->User->read(null, $id);
 				unset($this->request->data['User']['password']);

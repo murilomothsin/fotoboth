@@ -9,7 +9,8 @@ class AlbumsController extends AppController {
 	var $components = array('Upload');
 
 	public function admin_index() {
-		$this->set('albums', $this->Album->find('all'));
+		$this->set('albums', $this->Album->find('all', array(
+        			'order' => array('Album.id' => 'asc'))));
 	}
 
 	public function admin_clearTemp(){
@@ -134,15 +135,15 @@ class AlbumsController extends AppController {
 		$categories = $this->Album->Category->find('list');
 		$this->set(compact('categories'));
 
-		if ($this->request->is('get')) {
-			$this->request->data = $this->Album->read();
-		} else {
+		if($this->request->is('post') || $this->request->is('put')) {
 			if($this->Album->save($this->request->data)){
 				$this->Session->setFlash("Album foi editado com sucesso!");
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash('Falha na edição do album, tente outra vez.');
 			}
+		}else{
+			$this->request->data = $this->Album->read();
 		}
 	}
 }

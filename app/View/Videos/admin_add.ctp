@@ -11,9 +11,3 @@
 	</fieldset>
 	<?php echo $this->Form->end('ENVIAR'); ?>
 </div>
-<div>
-	<h3>Actions</h3>
-	<ul>
-		<li><?php echo $this->Html->link('Listar', array('action' => 'index')); ?></li>
-	</ul>
-</div>

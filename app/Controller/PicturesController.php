@@ -10,11 +10,20 @@ class PicturesController extends AppController {
 	
 
 	public function admin_index() {
-		$this->set('pictures', $this->Picture->find('all'));
+		//$this->set('pictures', $this->Picture->find('all'));
+		$this->Picture->recursive = 0;
+		$options = array(
+			'order' => array('Picture.id' => 'ASC'),
+			'limit' => 10
+		);
+		$this->paginate = $options;
+		$this->set('pictures', $this->paginate());
 	}
 
 
 	function admin_add() {
+		$this->Session->setFlash(__('Não é possivel adicionar uma imagem.', true));
+		$this->redirect(array('action'=>'index'));
 		if (!empty($this->request->data)) {
 			$this->request->data['Picture'] = $this->Upload->uploadImg($this->request->data['Picture']);
 			if ($this->Picture->save($this->request->data)) { //salva o trabalho

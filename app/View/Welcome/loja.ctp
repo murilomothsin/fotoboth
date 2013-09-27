@@ -10,7 +10,7 @@
 			<div class="item"><img src="img/loja/006.jpg" alt=""></div>
 		</div>
 		<!-- Carousel nav -->
-		<a class="carousel-control left" href="#myCarousel" data-slide="prev"><div class="control1">&lsaquo;</div></a>
-		<a class="carousel-control right" href="#myCarousel" data-slide="next"><div class="control1">&rsaquo;</div></a>
+		<a class="carousel-control left" href="#lojaCarousel" data-slide="prev"><div class="control1">&lsaquo;</div></a>
+		<a class="carousel-control right" href="#lojaCarousel" data-slide="next"><div class="control1">&rsaquo;</div></a>
 	</div>
 </div>

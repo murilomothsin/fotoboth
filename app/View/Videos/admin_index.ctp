@@ -34,13 +34,15 @@
 		</table>
 	</div>
 	<div class="pagination pagination-centered">
+		<ul>
 		<?php
 			if($this->Paginator->hasPrev())
-				echo $this->Paginator->prev('<<', null, null, array('class' => 'desabilitado'));
+				echo $this->Paginator->prev('<<', array('tag' => 'li', 'class' => 'disabled'));
 			if($this->Paginator->hasPage())
-				echo $this->Paginator->numbers();
+				echo $this->Paginator->numbers(array('tag' => 'li', 'separator' => '', 'currentTag' => 'a', 'currentClass' => 'disabled'));
 			if($this->Paginator->hasNext())
-				echo $this->Paginator->next('>>', null, null, array('class' => 'desabilitado'));
+				echo $this->Paginator->next('>>', array('tag' => 'li', 'class' => 'disabled'));
 		?>
+		</ul>
 	</div>
 </div>

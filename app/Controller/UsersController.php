@@ -8,15 +8,17 @@
 
 		public function beforeFilter() {
 			parent::beforeFilter();
-			$this->Auth->allow('add', 'logout');
+			$this->Auth->allow('add', 'logout', 'login');
 		}
 
 		public function admin_login() {
 			if ($this->Auth->login()) {
 				$this->redirect(array('controller' => 'Albums', 'action' => 'index'));
 			} else {
-				if($this->request->is('post'))
+				if($this->request->is('post')){
 					$this->Session->setFlash(__('Usuário ou senha inválidos!'));
+					$this->redirect(array('action' => 'login'));
+				}
 			}
 		}
 
@@ -36,6 +38,10 @@
 		}
 
 		public function admin_add(){
+			if($this->Auth->user('role') != 'admin'){
+				$this->Session->setFlash('Você não tem premissão para adicionar usuários.');
+				$this->redirect(array('action' => 'index'));
+			}
 			if($this->request->is('post')){
 				$this->User->create();
 				if($this->User->save($this->request->data)){
@@ -48,6 +54,10 @@
 		}
 
 		public function admin_edit($id = null){
+			if($this->Auth->user('role') != 'admin'){
+				$this->Session->setFlash('Você não tem premissão para editar usuários.');
+				$this->redirect(array('action' => 'index'));
+			}
 			$this->User->id = $id;
 			if (!$this->User->exists()) {
 				throw new NotFoundException(__('Usuário inválido!'));
@@ -66,6 +76,10 @@
 		}
 
 		public function admin_delete($id = null) {
+			if($this->Auth->user('role') != 'admin'){
+				$this->Session->setFlash('Você não tem premissão para excluir usuários.');
+				$this->redirect(array('action' => 'index'));
+			}
 			if (!$this->request->is('post')) {
 				throw new MethodNotAllowedException();
 			}

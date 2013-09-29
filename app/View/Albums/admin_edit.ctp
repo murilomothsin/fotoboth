@@ -11,7 +11,11 @@
 	 	<?php echo $this->element('form_albums'); ?>
 	</fieldset>
 	<?php 
-		echo $this->Form->end('ENVIAR', array( 'class' => 'btn btn-primary'));
+		$options = array(
+			'label' => 'Enviar',
+			'class' => 'btn btn-large btn-primary'
+		);
+		echo $this->Form->end($options);
 	?>
 	</div>
 </div>

@@ -5,9 +5,15 @@
 	<fieldset>
 	<legend>Adicionar imagem para capa</legend>
 	<?php
-	echo $this->Form->input('title');
-	echo $this->Form->input('Img', array('type'=>'file'));
+	echo $this->Form->input('title', array('label' => 'Titulo da Foto'));
+	echo $this->Form->input('Img', array('type'=>'file', 'Label' => 'Foto'));
 	?>
 	</fieldset>
-	<?php echo $this->Form->end('Upload'); ?>
+
+	<?php 
+	$options = array(
+				'label' => 'Upload',
+				'class' => 'btn btn-large btn-primary'
+			);
+	echo $this->Form->end($options); ?>
 </div>

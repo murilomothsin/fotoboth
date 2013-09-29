@@ -9,9 +9,6 @@ class AlbumsController extends AppController {
 	var $components = array('Upload');
 
 	public function admin_index() {
-		//$this->set('albums', $this->Album->find('all', array(
-        //			'order' => array('Album.id' => 'asc'))));
-
 		$this->Album->recursive = 0;
 		$options = array(
 			'order' => array('Album.id' => 'ASC'),

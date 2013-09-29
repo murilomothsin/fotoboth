@@ -28,7 +28,8 @@ class WelcomesController extends AppController {
 	public function book() {
 		$this->set("title_for_layout","Book");
 		$this->set('albums', $this->Album->find('all', array(
-		'conditions' => array('category_id' => '1'))));
+		'conditions' => array('category_id' => '1'),
+		'order' => array('Album.created' => 'ASC'))));
 	}
 
 	public function ajax($id = null){
@@ -49,18 +50,21 @@ class WelcomesController extends AppController {
 	public function eventos() {
 		$this->set("title_for_layout","Eventos");
 		$this->set('albums', $this->Album->find('all', array(
-		'conditions' => array('category_id' => '2'))));
+		'conditions' => array('category_id' => '2'),
+		'order' => array('Album.created' => 'ASC'))));
 	}
 
 	public function externas() {
 		$this->set("title_for_layout","Externas");
 		$this->set('albums', $this->Album->find('all', array(
-		'conditions' => array('category_id' => '3'))));
+		'conditions' => array('category_id' => '3'),
+		'order' => array('Album.created' => 'DESC'))));
 	}
 
 	public function videos() {
 		$this->set("title_for_layout","Videos");
-		$this->set('videos', $this->Video->find('all'));
+		$this->set('videos', $this->Video->find('all', array(
+			'order' => array('Video.created' => 'DESC'))));
 	}
 
 	public function contato() {

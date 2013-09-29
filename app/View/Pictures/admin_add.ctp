@@ -9,5 +9,10 @@
 	echo $this->Form->input('Img', array('type'=>'file'));
 	?>
 	</fieldset>
-	<?php echo $this->Form->end('Upload'); ?>
+	<?php 
+	$options = array(
+			'label' => 'Upload',
+			'class' => 'btn btn-large btn-primary'
+		);
+	echo $this->Form->end($options); ?>
 </div>

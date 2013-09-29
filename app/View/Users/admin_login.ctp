@@ -4,10 +4,16 @@
 	<fieldset>
 		<legend><?php echo __('Login'); ?></legend>
 		<?php 
-			echo $this->Form->input('username', array( 'placeholder' => 'Usuário'));
+			echo $this->Form->input('username', array( 'label' => 'Usuário', 'placeholder' => 'Usuário'));
 			echo $this->Form->input('password', array( 'type' => 'password', 
+														'label' => 'Senha',
 														'placeholder' => 'Senha'));
 		?>
 	</fieldset>
-	<?php echo $this->Form->end(__('Login'));?>
+	<?php 
+	$options = array(
+			'label' => 'Login',
+			'class' => 'btn btn-large btn-primary'
+		);
+	echo $this->Form->end($options);?>
 </div>

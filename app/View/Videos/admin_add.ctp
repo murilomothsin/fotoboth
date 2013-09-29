@@ -9,5 +9,10 @@
 			echo $this->Form->input('embed');
 		?>
 	</fieldset>
-	<?php echo $this->Form->end('ENVIAR'); ?>
+	<?php 
+	$options = array(
+			'label' => 'Enviar',
+			'class' => 'btn btn-large btn-primary'
+		);
+	echo $this->Form->end($options); ?>
 </div>

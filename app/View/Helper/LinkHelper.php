@@ -57,6 +57,10 @@
 		}
 
 		public function formUsers( $Legend ) {
+			$options = array(
+				'label' => 'Enviar',
+				'class' => 'btn btn-large btn-primary'
+			);
 			$link = $this->Form->create('User', array('class' => 'form-horizontal')).
 						"<fieldset>
 							<legend>$Legend</legend>".
@@ -74,9 +78,7 @@
 												'label' => 'Grupo',
 												'div' => array('class' => 'control-group')
 							)).
-					   		$this->Form->end('Salvar', array('type' => 'submit',
-																'class' => 'btn btn-primary',
-																'div' => array('class' => 'control-group'))).
+					   		$this->Form->end($options).
 						"</fieldset>";
 			return $link;
 		}

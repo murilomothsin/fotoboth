@@ -36,12 +36,13 @@ class AppController extends Controller {
 	public $components = array('Upload', 
 								'Session', 
 								'Auth' => array(
-									'loginRedirect' => array('controller' => 'users', 'action' => 'login'),
+									'loginRedirect' => array('controller' => 'albums', 'action' => 'index'),
 									'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
 									'authorize' => array('Controller')
 						));
 
 	public function isAuthorized($user) {
+		return true;
 		if (isset($user['role']) && $user['role'] === 'admin') {
 			return true; //Admin pode acessar todas actions
 		}

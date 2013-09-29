@@ -9,13 +9,15 @@
 		<?php 
 			echo $this->element('form_albums');
 			echo $this->Form->input('Picture.0.title', array( 'class' => 'input-xlarge', 
+													'label' => 'Título da Foto da Capa',
 													'placeholder' => 'Título da foto',
 													'error' => array(
 													'wrap' => 'div', 
 													'class' => 'formerror'
 													)
 									            ));
-			echo $this->Form->input('Picture.0.Img', array('type'=>'file'));
+			echo $this->Form->input('Picture.0.Img', array('type'=>'file',
+															'label' => 'Foto da Capa'));
 			echo $this->Form->input('Picture.0.is_principal', array('type'=>'hidden', 'value' => '1'));
 		?>
 		<div id="contentPictures"  class="well well-small">
@@ -25,7 +27,11 @@
 		</div>
 	</fieldset>
 	<?php 
-		echo $this->Form->end('ENVIAR', array( 'class' => 'btn btn-primary'));
+		$options = array(
+			'label' => 'Enviar',
+			'class' => 'btn btn-large btn-primary'
+		);
+		echo $this->Form->end($options);
 	?>
 	</div>
 </div>

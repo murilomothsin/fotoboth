@@ -30,7 +30,7 @@
 			//$this->set('users', $this->User->find('all'));
 			$this->User->recursive = 0;
 			$options = array(
-				'order' => array('User.id' => 'ASC'),
+				'order' => array('User.created' => 'ASC'),
 				'limit' => 10
 			);
 			$this->paginate = $options;

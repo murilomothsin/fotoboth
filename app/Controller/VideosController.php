@@ -9,7 +9,7 @@ class VideosController extends AppController {
 		//$this->set('videos', $this->Video->find('all'));
 		$this->Video->recursive = 0;
 		$options = array(
-			'order' => array('Video.id' => 'ASC'),
+			'order' => array('Video.created' => 'ASC'),
 			'limit' => 10
 		);
 		$this->paginate = $options;
@@ -18,7 +18,7 @@ class VideosController extends AppController {
 
 	public function admin_edit($id = null){
 		$this->Video->id = $id;
-		
+
 		if (!$this->Video->exists()) {
 			$this->Session->setFlash(__('Video inválido.'));
 			$this->redirect(array('action' => 'index'));

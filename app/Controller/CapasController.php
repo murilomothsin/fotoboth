@@ -15,7 +15,7 @@ class CapasController extends AppController {
 		$this->Picture->recursive = 0;
 		$options = array(
 			'conditions' => array('capa' => '1'),
-			'order' => array('Picture.id' => 'ASC'),
+			'order' => array('Picture.created' => 'ASC'),
 			'limit' => 10
 		);
 		$this->paginate = $options;

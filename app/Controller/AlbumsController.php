@@ -11,7 +11,7 @@ class AlbumsController extends AppController {
 	public function admin_index() {
 		$this->Album->recursive = 0;
 		$options = array(
-			'order' => array('Album.id' => 'ASC'),
+			'order' => array('Album.when' => 'DESC'),
 			'limit' => 10
 		);
 		$this->paginate = $options;

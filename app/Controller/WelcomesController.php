@@ -18,7 +18,8 @@ class WelcomesController extends AppController {
 	public function index() {
 		$this->set("title_for_layout","");
 		$this->set('images', $this->Picture->find('all', array(
-		'conditions' => array('capa' => '1'))));
+			'order' => 'rand()',
+			'conditions' => array('capa' => '1'))));
 	}
 
 	public function loja() {

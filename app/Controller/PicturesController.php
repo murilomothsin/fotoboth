@@ -7,13 +7,13 @@ class PicturesController extends AppController {
 	var $helpers = array('Html', 'Form');
 
 	var $components = array('Upload');
-	
+
 
 	public function admin_index() {
 		//$this->set('pictures', $this->Picture->find('all'));
 		$this->Picture->recursive = 0;
 		$options = array(
-			'order' => array('Picture.id' => 'ASC'),
+			'order' => array('Picture.created' => 'ASC'),
 			'limit' => 10
 		);
 		$this->paginate = $options;

@@ -30,7 +30,7 @@ class WelcomesController extends AppController {
 		$this->set("title_for_layout","Book");
 		$this->set('albums', $this->Album->find('all', array(
 		'conditions' => array('category_id' => '1'),
-		'order' => array('Album.created' => 'ASC'))));
+		'order' => array('Album.created' => 'DESC'))));
 	}
 
 	public function ajax($id = null){
@@ -52,7 +52,7 @@ class WelcomesController extends AppController {
 		$this->set("title_for_layout","Eventos");
 		$this->set('albums', $this->Album->find('all', array(
 		'conditions' => array('category_id' => '2'),
-		'order' => array('Album.created' => 'ASC'))));
+		'order' => array('Album.created' => 'DESC'))));
 	}
 
 	public function externas() {

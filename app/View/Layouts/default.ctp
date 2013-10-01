@@ -80,7 +80,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 			</div>
 			<div class="span3">
 				<ul class="inline" style="float: right;">
-					<li style="width: 35px;"><a href="#"><i class="icon-google-plus icon-large googleplus" style="padding: 5px;"></i></a></li>
+					<!-- <li style="width: 35px;"><a href="#"><i class="icon-google-plus icon-large googleplus" style="padding: 5px;"></i></a></li> -->
 					<li style="width: 35px;"><a href="https://www.facebook.com/foto.both.1" target="_blank"><i class="icon-facebook icon-large facebook" style="padding: 5px;"></i></a></li>
 					<li style="width: 35px;"><a href="http://fotoboth.blogspot.com.br/" target="_blank"><div class="blogger"></div></a></li>
 					<li style="width: 35px;"><a href="http://www.youtube.com/channel/UCobr8WoQU3C1LcXqI6bD55g" target="_blank"><i class="icon-youtube icon-large youtube" style="padding: 5px;"></i></a></li>

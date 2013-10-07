@@ -18,7 +18,7 @@
 							<img src="'.$imgPath.'" alt="" style="padding: 5px; height: 250px;">
 							<center><h4>'.$album['Album']['title'].'</h4>
 							<p><br />
-								<a href="#myModal" role="button" class="btn" data-toggle="modal" onclick="getAjax('.$dir.');">Ver mais fotos</a></center>
+								<a href="#myModal" role="button" class="btn ver_mais" data-id="'.$dir.'" data-toggle="modal">Ver mais fotos</a></center>
 							</p>
 						</div>
 					   </div>';

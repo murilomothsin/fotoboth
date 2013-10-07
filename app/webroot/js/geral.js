@@ -12,7 +12,16 @@ $( "#CloseModal" ).click(function() {
 	$( '#contentView' ).empty();
 });
 
-
+$( "#ver_mais" ).click(function() {
+		var dir = this.getAttribute("data-id");
+		alert(dir);
+		$.get("/fotoboth/welcomes/ajax/"+dir,
+			null,
+			function(data) {
+				$("#contentView").html(data);
+			}
+		);
+});
 
 
 function getAjax(id){

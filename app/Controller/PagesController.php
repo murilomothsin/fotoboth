@@ -31,45 +31,31 @@ App::uses('AppController', 'Controller');
  */
 class PagesController extends AppController {
 
-/**
- * Controller name
- *
- * @var string
- */
 	public $name = 'Pages';
+	var $helpers = array('Html', 'Form');
+	public $uses = array('Pages');
 
-/**
- * This controller does not use a model
- *
- * @var array
- */
-	public $uses = array();
-
-/**
- * Displays a view
- *
- * @param mixed What page to display
- * @return void
- */
-	public function display() {
-		$path = func_get_args();
-
-		$count = count($path);
-		if (!$count) {
-			$this->redirect('/');
-		}
-		$page = $subpage = $title_for_layout = null;
-
-		if (!empty($path[0])) {
-			$page = $path[0];
-		}
-		if (!empty($path[1])) {
-			$subpage = $path[1];
-		}
-		if (!empty($path[$count - 1])) {
-			$title_for_layout = Inflector::humanize($path[$count - 1]);
-		}
-		$this->set(compact('page', 'subpage', 'title_for_layout'));
-		$this->render(implode('/', $path));
+	public function admin_index() {
+		$this->Pages->recursive = 0;
+		$options = array(
+			'order' => array('Pages.when' => 'DESC'),
+			'limit' => 10
+		);
+		$this->paginate = $options;
+		$this->set('pages', $this->paginate());
 	}
+
+
+	public function admin_add(){
+
+		if (!empty($this->request->data)) {
+			if ($this->Pages->save($this->request->data)) {
+				$this->Session->setFlash(__('Página adicionado com sucesso.', true));
+			} else {
+				$this->Session->setFlash(__('Erro ao adicionar o página.', true));
+			}
+			$this->redirect(array('action'=>'index'));
+		}
+	}
+
 }

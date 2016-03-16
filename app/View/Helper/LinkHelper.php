@@ -46,6 +46,14 @@
 						</ul>
 					</li>
 					<li>'.$this->Html->link('Imagens', array('controller' => 'pictures', 'action' => 'index')).'</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Páginas<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li>'.$this->Html->link('Lista', array('controller' => 'pages', 'action' => 'index')).'</li>
+							<li>'.$this->Html->link('Adicionar', array('controller' => 'pages', 'action' => 'add')).'</li>
+						</ul>
+					</li>
+
 					<li>'.$this->Html->link('Adicionar', array('action' => 'add')).'</li>
 					<li style="float: right;">'.$this->Html->link('Sair', array('controller' => 'users', 'action' => 'logout')).'</li>
 					<li style="float: right;">'.$this->Html->link('Limpar', array('controller' => 'albums', 'action' => 'clearTemp')).'</li>

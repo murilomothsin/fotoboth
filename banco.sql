@@ -174,3 +174,16 @@ INSERT INTO `videos` (`id`, `video`, `embed`, `created`, `modified`) VALUES
 /*!40000 ALTER TABLE `videos` ENABLE KEYS */;
 /*!40014 SET FOREIGN_KEY_CHECKS=1 */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+
+CREATE TABLE `pages` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`title` VARCHAR(255) NOT NULL,
+	`content` TEXT NOT NULL,
+	`url` VARCHAR(255) NOT NULL,
+	`created` DATETIME NOT NULL,
+	`modified` DATETIME NOT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+;

@@ -3119,3 +3119,141 @@ Stack Trace:
 #3 /var/www/html/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-03-18 00:58:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-18 02:13:26 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/fotoboth/app/Controller/WelcomesController.php, line 75]
+2016-03-18 02:13:26 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /fotoboth/asdd
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/f...', 75)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/f...', 75, Array)
+#2 /var/www/html/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/f...', 75, Array)
+#3 /var/www/html/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-18 02:13:33 Error: Fatal Error (1): Call to a member function count() on array in [/var/www/html/fotoboth/app/Controller/WelcomesController.php, line 75]
+2016-03-18 02:13:33 Error: [FatalErrorException] Call to a member function count() on array
+Request URL: /fotoboth/asdd
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 75, Array)
+#2 /var/www/html/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 75, Array)
+#3 /var/www/html/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-18 02:13:40 Error: Fatal Error (1): Call to a member function length() on array in [/var/www/html/fotoboth/app/Controller/WelcomesController.php, line 75]
+2016-03-18 02:13:40 Error: [FatalErrorException] Call to a member function length() on array
+Request URL: /fotoboth/asdd
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 75, Array)
+#2 /var/www/html/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 75, Array)
+#3 /var/www/html/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-18 02:13:45 Error: Fatal Error (1): Call to a member function size() on array in [/var/www/html/fotoboth/app/Controller/WelcomesController.php, line 75]
+2016-03-18 02:13:45 Error: [FatalErrorException] Call to a member function size() on array
+Request URL: /fotoboth/asdd
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/f...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/f...', 75, Array)
+#2 /var/www/html/fotoboth/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/f...', 75, Array)
+#3 /var/www/html/fotoboth/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-18 02:15:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-18 02:15:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-18 02:15:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-18 02:15:57 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /fotoboth/users/login
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-18 02:16:03 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /fotoboth/users/login
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-18 02:16:13 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /fotoboth/users/login
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-18 02:16:16 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /fotoboth/users/login
+Stack Trace:
+#0 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/fotoboth/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-03-18 02:16:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-18 02:16:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /fotoboth/img/pictures/files/003.jpg
+Stack Trace:
+#0 /var/www/html/fotoboth/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

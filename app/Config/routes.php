@@ -40,6 +40,8 @@
 	Router::connect('/externas', array('controller' => 'welcomes', 'action' => 'externas'));
 	Router::connect('/videos', array('controller' => 'welcomes', 'action' => 'videos'));
 	Router::connect('/contato', array('controller' => 'welcomes', 'action' => 'contato'));
+
+	Router::connect('/:url', array('controller' => 'welcomes', 'action' => 'pages'));
 	//Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
  * ...and connect the rest of 'Pages' controller's urls.

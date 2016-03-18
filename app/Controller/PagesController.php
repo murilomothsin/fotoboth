@@ -47,7 +47,6 @@ class PagesController extends AppController {
 
 
 	public function admin_add(){
-
 		if (!empty($this->request->data)) {
 			if ($this->Pages->save($this->request->data)) {
 				$this->Session->setFlash(__('Página adicionado com sucesso.', true));
@@ -56,6 +55,42 @@ class PagesController extends AppController {
 			}
 			$this->redirect(array('action'=>'index'));
 		}
+	}
+
+	public function admin_edit($id = null){
+		$this->Pages->id = $id;
+
+		if (!$this->Pages->exists()) {
+			$this->Session->setFlash(__('Página inválido.'));
+			$this->redirect(array('action' => 'index'));
+		}
+
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->Pages->save($this->request->data)) {
+				$this->Session->setFlash(__('Página foi editado com sucesso.'));
+			} else {
+				$this->Session->setFlash(__('Não foi possivel editar a página.'));
+			}
+			$this->redirect(array('action' => 'index'));
+		}else {
+			$this->request->data = $this->Pages->read(null, $id);
+		}
+	}
+
+	public function admin_delete($id = null) {
+		if (!$this->request->is('post')) {
+			throw new MethodNotAllowedException();
+		}
+		$this->Pages->id = $id;
+		if (!$this->Pages->exists()) {
+			throw new NotFoundException(__('Página inválido.'));
+		}
+		if ($this->Pages->delete()) {
+			$this->Session->setFlash(__('Página excluido.'));
+			$this->redirect(array('action' => 'index'));
+		}
+		$this->Session->setFlash(__('Erro ao excluir página.'));
+		$this->redirect(array('action' => 'index'));
 	}
 
 }

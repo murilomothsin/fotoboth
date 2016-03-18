@@ -8,11 +8,11 @@ class WelcomesController extends AppController {
 
 	var $helpers = array('Html', 'Form');
 
-	public $uses = array('Album', 'Video', 'Picture');
+	public $uses = array('Album', 'Video', 'Picture', 'Pages');
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('loja', 'book', 'eventos', 'externas', 'videos', 'contato', 'ajax');
+		$this->Auth->allow('loja', 'book', 'eventos', 'externas', 'videos', 'contato', 'ajax', 'pages');
 	}
 
 	public function index() {
@@ -66,6 +66,17 @@ class WelcomesController extends AppController {
 		$this->set("title_for_layout","Videos");
 		$this->set('videos', $this->Video->find('all', array(
 			'order' => array('Video.created' => 'DESC'))));
+	}
+
+	public function pages() {
+		$page = $this->Pages->find('first', array(
+			'conditions' => array('url' => $this->request->url))
+		);
+		if(count($page) == 0){
+			$this->redirect(array('action'=>'index'));
+		}
+		$this->set('page', $page);
+		$this->set("title_for_layout","Pages");
 	}
 
 	public function contato() {

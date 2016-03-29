@@ -48,12 +48,15 @@ class PagesController extends AppController {
 
 	public function admin_add(){
 		if (!empty($this->request->data)) {
+			$this->Pages->create();
 			if ($this->Pages->save($this->request->data)) {
 				$this->Session->setFlash(__('Página adicionado com sucesso.', true));
+				// pr($this->Pages);
+				//$this->redirect(array('action'=>'index'));
 			} else {
+				pr($this->Pages);
 				$this->Session->setFlash(__('Erro ao adicionar o página.', true));
 			}
-			$this->redirect(array('action'=>'index'));
 		}
 	}
 

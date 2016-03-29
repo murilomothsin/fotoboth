@@ -94,8 +94,7 @@ class WelcomesController extends AppController {
 			$Email->config('gmail');
 			$Email->from(array('me@example.com' => 'My Site'))
 				->emailFormat('html')
-				->to('fotoboth@tca.com.br')
-				->cc('murilo.mothsin@gmail.com', 'vini.fotoboth@tca.com.br')
+				->to('contato@fotoboth.com.br')
 				->subject('About')
 				->send($email);
 			$this->Session->setFlash(__('E-mail enviado com sucesso'));

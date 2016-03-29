@@ -76,7 +76,7 @@ $Description = 'Foto Both - Momentos especiais merecem registros especiais';
 		</div>
 		<div id="footer" class="row">
 			<div class="span8" style="font-size: 12px; padding: 10px;">
-				<span style=" float: right;">Foto Both - Momentos Especiais Merecem Registros Especiais - fotoboth@fotoboth.com.br - (51) 3547-1169</span>
+				<span style=" float: right;">Foto Both - Momentos Especiais Merecem Registros Especiais - contato@fotoboth.com.br - (51) 3547-1169</span>
 			</div>
 			<div class="span3">
 				<ul class="inline" style="float: right;">
